@@ -32,3 +32,13 @@ WHAT'S THE NEW (from the original GEAR):
 
 Video tutorials will be added soon :)
 ------
+soon
+
+Thanks
+----
+BIG THANKS to Jeremie for the original code and all the help.   
+BIG THANKS to Sly and PH from Shed  Montreal to allow me 
+to release some internal code for the poseLib, selection sets and 
+some of the facial components.  
+BIG THANKS to Helge for the original cpp solvers :)
+
