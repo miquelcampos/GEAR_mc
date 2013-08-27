@@ -1,0 +1,2006 @@
+<guide date="2011-03-23 17:23:53.925000" description="" name="horse_guide" user="gerem" version="1.0">
+ <options>
+  <parameter scriptName="setGeometries" value="True" valueType="11" />
+  <parameter scriptName="setUnselectable" value="True" valueType="11" />
+  <parameter scriptName="synoptic_select" value="_common/horse_body" valueType="8" />
+  <parameter scriptName="L_color_ik_r" value="0.75" valueType="5" />
+  <parameter scriptName="synoptic" value="_common/horse_body" valueType="8" />
+  <parameter scriptName="setHidden" value="True" valueType="11" />
+  <parameter scriptName="geo_path" value="F:\Work\3D\Scripts\SN\gear_samples\models\horse\horse_geo.emdl" valueType="8" />
+  <parameter scriptName="negate" value="0" valueType="3" />
+  <parameter scriptName="L_color_ik_g" value="0.5" valueType="5" />
+  <parameter scriptName="L_color_ik_b" value="0.0" valueType="5" />
+  <parameter scriptName="shadowRig" value="False" valueType="11" />
+  <parameter scriptName="C_color_ik_b" value="0.75" valueType="5" />
+  <parameter scriptName="skin_path" value="F:\Work\3D\Scripts\SN\gear_samples\models\horse\horse_skin.xml" valueType="8" />
+  <parameter scriptName="xrig_path" value="" valueType="8" />
+  <parameter scriptName="C_color_ik_g" value="0.25" valueType="5" />
+  <parameter scriptName="synoptic_list" value="_common/horse_body" valueType="8" />
+  <parameter scriptName="popUpControls" value="False" valueType="11" />
+  <parameter scriptName="inspectSettings" value="horse_guide.arm_L0_root.settings" valueType="8" />
+  <parameter scriptName="comments" value="" valueType="8" />
+  <parameter scriptName="C_color_ik_r" value="0.75" valueType="5" />
+  <parameter scriptName="prod_name" value="_common" valueType="8" />
+  <parameter scriptName="R_color_ik_r" value="0.0" valueType="5" />
+  <parameter scriptName="rigName" value="horse" valueType="8" />
+  <parameter scriptName="C_color_fk_r" value="0.5" valueType="5" />
+  <parameter scriptName="R_color_ik_b" value="0.75" valueType="5" />
+  <parameter scriptName="R_color_ik_g" value="0.5" valueType="5" />
+  <parameter scriptName="C_color_fk_g" value="0.0" valueType="5" />
+  <parameter scriptName="C_color_fk_b" value="0.5" valueType="5" />
+  <parameter scriptName="addGeometry" value="True" valueType="11" />
+  <parameter scriptName="L_color_fk_b" value="0.0" valueType="5" />
+  <parameter scriptName="R_color_fk_b" value="0.75" valueType="5" />
+  <parameter scriptName="L_color_fk_g" value="0.0" valueType="5" />
+  <parameter scriptName="R_color_fk_g" value="0.0" valueType="5" />
+  <parameter scriptName="step" value="-1" valueType="3" />
+  <parameter scriptName="isolateResult" value="False" valueType="11" />
+  <parameter scriptName="addXRig" value="False" valueType="11" />
+  <parameter scriptName="L_color_fk_r" value="0.75" valueType="5" />
+  <parameter scriptName="R_color_fk_r" value="0.0" valueType="5" />
+  <parameter scriptName="mode" value="0" valueType="3" />
+  <parameter scriptName="setDeformers" value="True" valueType="11" />
+ </options>
+ <controlers>
+  <x3dobject fullName="horse_guide.spine_C0_fk1_ctl" id="108" model="horse_guide" name="spine_C0_fk1_ctl" owners="horse_guide.controlers_org,Layers.Layer_Default,horse_guide.controlers_grp" type="crvlist">
+   <primitive>
+    <clusters count="0" />
+    <curve closed="True" cp="2.77926719501,1.34524652575e-44,-9.93715233357e-45,1.0,1.3896335975,-1.80546477191e-16,-2.40691599478,1.0,-1.3896335975,-1.80546477191e-16,-2.40691599478,1.0,-2.77926719501,-1.34524652575e-44,9.93715233357e-45,1.0,-1.3896335975,1.80546477191e-16,2.40691599478,1.0,1.3896335975,1.80546477191e-16,2.40691599478,1.0" degree="3" index="0" kn="0.0,1.0,2.0,3.0,4.0,5.0,6.0" ncp="6" nkn="7" />
+   </primitive>
+  </x3dobject>
+  <x3dobject fullName="horse_guide.arm_R0_upv_ctl" id="133" model="horse_guide" name="arm_R0_upv_ctl" owners="horse_guide.controlers_org,Layers.Layer_Default,horse_guide.controlers_grp" type="crvlist">
+   <primitive>
+    <clusters count="0" />
+    <curve closed="False" cp="4.64073224293e-13,0.303898860203,-3.82986607019,1.0,0.0,0.0,0.0,1.0,0.247252747253,0.0,0.247252747253,1.0,0.0,0.247252747253,0.0,1.0,0.247252747253,0.0,-0.247252747253,1.0,0.247252747253,0.0,0.247252747253,1.0,-0.247252747253,0.0,0.247252747253,1.0,0.0,0.247252747253,0.0,1.0,-0.247252747253,0.0,-0.247252747253,1.0,-0.247252747253,0.0,0.247252747253,1.0,-0.247252747253,0.0,-0.247252747253,1.0,0.247252747253,0.0,-0.247252747253,1.0,0.0,-0.247252747253,0.0,1.0,-0.247252747253,0.0,-0.247252747253,1.0,0.0,-0.247252747253,0.0,1.0,-0.247252747253,0.0,0.247252747253,1.0,0.0,-0.247252747253,0.0,1.0,0.247252747253,0.0,0.247252747253,1.0" degree="1" index="0" kn="0.0,1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0,11.0,12.0,13.0,14.0,15.0,16.0,17.0" ncp="18" nkn="18" />
+   </primitive>
+  </x3dobject>
+  <x3dobject fullName="horse_guide.leg_L0_roll_ctl" id="145" model="horse_guide" name="leg_L0_roll_ctl" owners="horse_guide.controlers_org,Layers.Layer_Default,horse_guide.controlers_grp" type="crvlist">
+   <primitive>
+    <clusters count="0" />
+    <curve closed="False" cp="0.577599033961,1.6546647951,0.827332397549,1.0,0.577599033961,2.14095857712,0.669325969614,1.0,0.577599033961,2.44150466293,0.25565977084,1.0,0.577599033961,2.44150466293,-0.25565977084,1.0,0.577599033961,2.14095857712,-0.669325969614,1.0,0.577599033961,1.6546647951,-0.827332397549,1.0" degree="3" index="0" kn="0.0,0.0,0.0,1.0,2.0,3.0,3.0,3.0" ncp="6" nkn="8" />
+    <curve closed="True" cp="0.577599033961,1.6546647951,0.827332397549,1.0,0.577599033961,1.85322457051,0.579132678284,1.0,0.577599033961,1.96905110617,0.876972341402,1.0" degree="1" index="1" kn="0.0,1.0,2.0,3.0" ncp="3" nkn="4" />
+    <curve closed="True" cp="0.577599033961,1.6546647951,-0.827332397549,1.0,0.577599033961,1.85322457051,-0.579132678284,1.0,0.577599033961,1.96905110617,-0.876972341402,1.0" degree="1" index="2" kn="0.0,1.0,2.0,3.0" ncp="3" nkn="4" />
+   </primitive>
+  </x3dobject>
+  <x3dobject fullName="horse_guide.spine_C0_fk2_ctl" id="157" model="horse_guide" name="spine_C0_fk2_ctl" owners="horse_guide.controlers_org,Layers.Layer_Default,horse_guide.controlers_grp" type="crvlist">
+   <primitive>
+    <clusters count="0" />
+    <curve closed="True" cp="2.77926719501,1.34524652575e-44,-9.93715233357e-45,1.0,1.3896335975,-1.80546477191e-16,-2.40691599478,1.0,-1.3896335975,-1.80546477191e-16,-2.40691599478,1.0,-2.77926719501,-1.34524652575e-44,9.93715233357e-45,1.0,-1.3896335975,1.80546477191e-16,2.40691599478,1.0,1.3896335975,1.80546477191e-16,2.40691599478,1.0" degree="3" index="0" kn="0.0,1.0,2.0,3.0,4.0,5.0,6.0" ncp="6" nkn="7" />
+   </primitive>
+  </x3dobject>
+  <x3dobject fullName="horse_guide.leg_R0_upv_ctl" id="179" model="horse_guide" name="leg_R0_upv_ctl" owners="horse_guide.controlers_org,Layers.Layer_Default,horse_guide.controlers_grp" type="crvlist">
+   <primitive>
+    <clusters count="0" />
+    <curve closed="False" cp="4.4408920985e-16,1.41180798959,-4.76977680866,1.0,0.0,0.0,0.0,1.0,0.268390386016,0.0,0.268390386016,1.0,0.0,0.268390386016,0.0,1.0,0.268390386016,0.0,-0.268390386016,1.0,0.268390386016,0.0,0.268390386016,1.0,-0.268390386016,0.0,0.268390386016,1.0,0.0,0.268390386016,0.0,1.0,-0.268390386016,0.0,-0.268390386016,1.0,-0.268390386016,0.0,0.268390386016,1.0,-0.268390386016,0.0,-0.268390386016,1.0,0.268390386016,0.0,-0.268390386016,1.0,0.0,-0.268390386016,0.0,1.0,-0.268390386016,0.0,-0.268390386016,1.0,0.0,-0.268390386016,0.0,1.0,-0.268390386016,0.0,0.268390386016,1.0,0.0,-0.268390386016,0.0,1.0,0.268390386016,0.0,0.268390386016,1.0" degree="1" index="0" kn="0.0,1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0,11.0,12.0,13.0,14.0,15.0,16.0,17.0" ncp="18" nkn="18" />
+   </primitive>
+  </x3dobject>
+  <x3dobject fullName="horse_guide.neck_C0_fk2_ctl" id="191" model="horse_guide" name="neck_C0_fk2_ctl" owners="horse_guide.controlers_org,Layers.Layer_Default,horse_guide.controlers_grp" type="crvlist">
+   <primitive>
+    <clusters count="0" />
+    <curve closed="True" cp="2.16165528142,1.34524652575e-44,-7.72890705247e-45,1.0,1.08082764071,-1.80546477191e-16,-1.87204838794,1.0,-1.08082764071,-1.80546477191e-16,-1.87204838794,1.0,-2.16165528142,-1.34524652575e-44,7.72890705247e-45,1.0,-1.08082764071,1.80546477191e-16,1.87204838794,1.0,1.08082764071,1.80546477191e-16,1.87204838794,1.0" degree="3" index="0" kn="0.0,1.0,2.0,3.0,4.0,5.0,6.0" ncp="6" nkn="7" />
+   </primitive>
+  </x3dobject>
+  <x3dobject fullName="horse_guide.spine_C0_ik1_ctl" id="203" model="horse_guide" name="spine_C0_ik1_ctl" owners="horse_guide.controlers_org,Layers.Layer_Default,horse_guide.controlers_grp" type="crvlist">
+   <primitive>
+    <clusters count="0" />
+    <curve closed="False" cp="2.23461487537,2.4662628003,2.21599933416,1.0,2.29251344055,1.56444301971,-0.510787951658,1.0,-2.29251344055,1.56444301971,-0.510787951658,1.0,-2.29251344055,0.00265364819673,-0.540374147075,1.0,-2.90357109736,0.00265364819673,3.76927459353,1.0,-2.23461487538,2.4662628003,2.21599933416,1.0,-2.29251344055,1.56444301971,-0.510787951658,1.0,-2.23461487538,2.4662628003,2.21599933416,1.0,2.23461487537,2.4662628003,2.21599933416,1.0,2.90357109735,0.00265364819673,3.76927459353,1.0,-2.90357109736,0.00265364819673,3.76927459353,1.0,2.90357109735,0.00265364819673,3.76927459353,1.0,2.29251344055,0.00265364819673,-0.540374147075,1.0,2.29251344055,1.56444301971,-0.510787951658,1.0,2.29251344055,0.00265364819673,-0.540374147075,1.0,-2.29251344055,0.00265364819673,-0.540374147075,1.0" degree="1" index="0" kn="0.0,1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0,11.0,12.0,13.0,14.0,15.0" ncp="16" nkn="16" />
+   </primitive>
+  </x3dobject>
+  <x3dobject fullName="horse_guide.leg_L0_upv_ctl" id="225" model="horse_guide" name="leg_L0_upv_ctl" owners="horse_guide.controlers_org,Layers.Layer_Default,horse_guide.controlers_grp" type="crvlist">
+   <primitive>
+    <clusters count="0" />
+    <curve closed="False" cp="0.0,1.41180798959,-4.76977680866,1.0,0.0,0.0,0.0,1.0,0.268390386016,0.0,0.268390386016,1.0,0.0,0.268390386016,0.0,1.0,0.268390386016,0.0,-0.268390386016,1.0,0.268390386016,0.0,0.268390386016,1.0,-0.268390386016,0.0,0.268390386016,1.0,0.0,0.268390386016,0.0,1.0,-0.268390386016,0.0,-0.268390386016,1.0,-0.268390386016,0.0,0.268390386016,1.0,-0.268390386016,0.0,-0.268390386016,1.0,0.268390386016,0.0,-0.268390386016,1.0,0.0,-0.268390386016,0.0,1.0,-0.268390386016,0.0,-0.268390386016,1.0,0.0,-0.268390386016,0.0,1.0,-0.268390386016,0.0,0.268390386016,1.0,0.0,-0.268390386016,0.0,1.0,0.268390386016,0.0,0.268390386016,1.0" degree="1" index="0" kn="0.0,1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0,11.0,12.0,13.0,14.0,15.0,16.0,17.0" ncp="18" nkn="18" />
+   </primitive>
+  </x3dobject>
+  <x3dobject fullName="horse_guide.neck_C0_fk0_ctl" id="237" model="horse_guide" name="neck_C0_fk0_ctl" owners="horse_guide.controlers_org,Layers.Layer_Default,horse_guide.controlers_grp" type="crvlist">
+   <primitive>
+    <clusters count="0" />
+    <curve closed="True" cp="3.40468965517,1.34524652575e-44,-1.21733238937e-44,1.0,1.70234482759,-1.80546477191e-16,-2.94854773338,1.0,-1.70234482759,-1.80546477191e-16,-2.94854773338,1.0,-3.40468965517,-1.34524652575e-44,1.21733238937e-44,1.0,-1.70234482759,1.80546477191e-16,2.94854773338,1.0,1.70234482759,1.80546477191e-16,2.94854773338,1.0" degree="3" index="0" kn="0.0,1.0,2.0,3.0,4.0,5.0,6.0" ncp="6" nkn="7" />
+   </primitive>
+  </x3dobject>
+  <x3dobject fullName="horse_guide.neck_C0_fk1_ctl" id="249" model="horse_guide" name="neck_C0_fk1_ctl" owners="horse_guide.controlers_org,Layers.Layer_Default,horse_guide.controlers_grp" type="crvlist">
+   <primitive>
+    <clusters count="0" />
+    <curve closed="True" cp="2.66653224818,1.34524652575e-44,-9.53407329824e-45,1.0,1.33326612409,-1.80546477191e-16,-2.30928466694,1.0,-1.33326612409,-1.80546477191e-16,-2.30928466694,1.0,-2.66653224818,-1.34524652575e-44,9.53407329824e-45,1.0,-1.33326612409,1.80546477191e-16,2.30928466694,1.0,1.33326612409,1.80546477191e-16,2.30928466694,1.0" degree="3" index="0" kn="0.0,1.0,2.0,3.0,4.0,5.0,6.0" ncp="6" nkn="7" />
+   </primitive>
+  </x3dobject>
+  <x3dobject fullName="horse_guide.leg_L0_ik_ctl" id="741" model="horse_guide" name="leg_L0_ik_ctl" owners="horse_guide.controlers_org,Layers.Layer_Default,horse_guide.controlers_grp" type="crvlist">
+   <primitive>
+    <clusters count="0" />
+    <curve closed="False" cp="0.602779128162,0.602779128162,1.04323853418,1.0,0.602779128162,0.602779128162,0.0,1.0,-0.602779128162,0.602779128162,0.0,1.0,-0.602779128162,-0.602779128162,0.0,1.0,-0.602779128162,-0.602779128162,1.04323853418,1.0,-0.602779128162,0.602779128162,1.04323853418,1.0,-0.602779128162,0.602779128162,0.0,1.0,-0.602779128162,0.602779128162,1.04323853418,1.0,0.602779128162,0.602779128162,1.04323853418,1.0,0.602779128162,-0.602779128162,1.04323853418,1.0,-0.602779128162,-0.602779128162,1.04323853418,1.0,0.602779128162,-0.602779128162,1.04323853418,1.0,0.602779128162,-0.602779128162,0.0,1.0,0.602779128162,0.602779128162,0.0,1.0,0.602779128162,-0.602779128162,0.0,1.0,-0.602779128162,-0.602779128162,0.0,1.0" degree="1" index="0" kn="0.0,1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0,11.0,12.0,13.0,14.0,15.0" ncp="16" nkn="16" />
+   </primitive>
+  </x3dobject>
+  <x3dobject fullName="horse_guide.arm_L0_upv_ctl" id="793" model="horse_guide" name="arm_L0_upv_ctl" owners="horse_guide.controlers_org,Layers.Layer_Default,horse_guide.controlers_grp" type="crvlist">
+   <primitive>
+    <clusters count="0" />
+    <curve closed="False" cp="0.0,0.303898860203,-3.82986607019,1.0,0.0,0.0,0.0,1.0,0.247252747253,0.0,0.247252747253,1.0,0.0,0.247252747253,0.0,1.0,0.247252747253,0.0,-0.247252747253,1.0,0.247252747253,0.0,0.247252747253,1.0,-0.247252747253,0.0,0.247252747253,1.0,0.0,0.247252747253,0.0,1.0,-0.247252747253,0.0,-0.247252747253,1.0,-0.247252747253,0.0,0.247252747253,1.0,-0.247252747253,0.0,-0.247252747253,1.0,0.247252747253,0.0,-0.247252747253,1.0,0.0,-0.247252747253,0.0,1.0,-0.247252747253,0.0,-0.247252747253,1.0,0.0,-0.247252747253,0.0,1.0,-0.247252747253,0.0,0.247252747253,1.0,0.0,-0.247252747253,0.0,1.0,0.247252747253,0.0,0.247252747253,1.0" degree="1" index="0" kn="0.0,1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0,11.0,12.0,13.0,14.0,15.0,16.0,17.0" ncp="18" nkn="18" />
+   </primitive>
+  </x3dobject>
+  <x3dobject fullName="horse_guide.leg_R0_roll_ctl" id="805" model="horse_guide" name="leg_R0_roll_ctl" owners="horse_guide.controlers_org,Layers.Layer_Default,horse_guide.controlers_grp" type="crvlist">
+   <primitive>
+    <clusters count="0" />
+    <curve closed="False" cp="-0.577599033961,-1.6546647951,-0.827332397549,1.0,-0.577599033961,-2.14095857712,-0.669325969614,1.0,-0.577599033961,-2.44150466293,-0.25565977084,1.0,-0.577599033961,-2.44150466293,0.25565977084,1.0,-0.577599033961,-2.14095857712,0.669325969614,1.0,-0.577599033961,-1.6546647951,0.827332397549,1.0" degree="3" index="0" kn="0.0,0.0,0.0,1.0,2.0,3.0,3.0,3.0" ncp="6" nkn="8" />
+    <curve closed="True" cp="-0.577599033961,-1.6546647951,-0.827332397549,1.0,-0.577599033961,-1.85322457051,-0.579132678284,1.0,-0.577599033961,-1.96905110617,-0.876972341402,1.0" degree="1" index="1" kn="0.0,1.0,2.0,3.0" ncp="3" nkn="4" />
+    <curve closed="True" cp="-0.577599033961,-1.6546647951,0.827332397549,1.0,-0.577599033961,-1.85322457051,0.579132678284,1.0,-0.577599033961,-1.96905110617,0.876972341402,1.0" degree="1" index="2" kn="0.0,1.0,2.0,3.0" ncp="3" nkn="4" />
+   </primitive>
+  </x3dobject>
+  <x3dobject fullName="horse_guide.ear_L0_fk0_ctl" id="817" model="horse_guide" name="ear_L0_fk0_ctl" owners="horse_guide.controlers_org,Layers.Layer_Default,horse_guide.controlers_grp" type="crvlist">
+   <primitive>
+    <clusters count="0" />
+    <curve closed="False" cp="0.874929801861,-0.051429002239,0.478852091715,1.0,0.874929801861,0.051429002239,0.478852091715,1.0,0.0,0.051429002239,0.29342800912,1.0,0.0,0.051429002239,-0.29342800912,1.0,0.0,-0.051429002239,-0.29342800912,1.0,0.0,-0.051429002239,0.29342800912,1.0,0.0,0.051429002239,0.29342800912,1.0,0.0,-0.051429002239,0.29342800912,1.0,0.874929801861,-0.051429002239,0.478852091715,1.0,0.874929801861,-0.051429002239,-0.478852091715,1.0,0.0,-0.051429002239,-0.29342800912,1.0,0.874929801861,-0.051429002239,-0.478852091715,1.0,0.874929801861,0.051429002239,-0.478852091715,1.0,0.874929801861,0.051429002239,0.478852091715,1.0,0.874929801861,0.051429002239,-0.478852091715,1.0,0.0,0.051429002239,-0.29342800912,1.0" degree="1" index="0" kn="0.0,1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0,11.0,12.0,13.0,14.0,15.0" ncp="16" nkn="16" />
+   </primitive>
+  </x3dobject>
+  <x3dobject fullName="horse_guide.shoulder_R0_fk0_ctl" id="829" model="horse_guide" name="shoulder_R0_fk0_ctl" owners="horse_guide.controlers_org,Layers.Layer_Default,horse_guide.controlers_grp" type="crvlist">
+   <primitive>
+    <clusters count="0" />
+    <curve closed="False" cp="-0.0987154674617,-1.37695613881,-0.908600893236,1.0,-0.11631878188,0.468129363113,-0.916955901677,1.0,-4.00877269576,0.462710337377,-1.37759215447,1.0,-4.00877269576,0.462710337377,-1.52996677109,1.0,-4.00877269576,-0.496915497196,-1.52996677109,1.0,-4.00877269576,-0.496915497196,-1.37759215447,1.0,-4.00877269576,0.462710337377,-1.37759215447,1.0,-4.00877269576,-0.496915497196,-1.37759215447,1.0,-0.0987154674617,-1.37695613881,-0.908600893236,1.0,-0.0987154674617,-1.37695613881,-1.06097550986,1.0,-4.00877269576,-0.496915497196,-1.52996677109,1.0,-0.0987154674617,-1.37695613881,-1.06097550986,1.0,-0.11631878188,0.468129363113,-1.0693305183,1.0,-0.11631878188,0.468129363113,-0.916955901677,1.0,-0.11631878188,0.468129363113,-1.0693305183,1.0,-4.00877269576,0.462710337377,-1.52996677109,1.0" degree="1" index="0" kn="0.0,1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0,11.0,12.0,13.0,14.0,15.0" ncp="16" nkn="16" />
+   </primitive>
+  </x3dobject>
+  <x3dobject fullName="horse_guide.ear_L0_fk1_ctl" id="841" model="horse_guide" name="ear_L0_fk1_ctl" owners="horse_guide.controlers_org,Layers.Layer_Default,horse_guide.controlers_grp" type="crvlist">
+   <primitive>
+    <clusters count="0" />
+    <curve closed="False" cp="0.84742111711,0.24738949253,0.051429002239,1.0,0.84742111711,0.24738949253,-0.051429002239,1.0,0.0,0.478852091715,-0.051429002239,1.0,0.0,-0.478852091715,-0.051429002239,1.0,0.0,-0.478852091715,0.051429002239,1.0,0.0,0.478852091715,0.051429002239,1.0,0.0,0.478852091715,-0.051429002239,1.0,0.0,0.478852091715,0.051429002239,1.0,0.84742111711,0.24738949253,0.051429002239,1.0,0.84742111711,-0.24738949253,0.051429002239,1.0,0.0,-0.478852091715,0.051429002239,1.0,0.84742111711,-0.24738949253,0.051429002239,1.0,0.84742111711,-0.24738949253,-0.051429002239,1.0,0.84742111711,0.24738949253,-0.051429002239,1.0,0.84742111711,-0.24738949253,-0.051429002239,1.0,0.0,-0.478852091715,-0.051429002239,1.0" degree="1" index="0" kn="0.0,1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0,11.0,12.0,13.0,14.0,15.0" ncp="16" nkn="16" />
+   </primitive>
+  </x3dobject>
+  <x3dobject fullName="horse_guide.ear_R0_fk1_ctl" id="855" model="horse_guide" name="ear_R0_fk1_ctl" owners="horse_guide.controlers_org,Layers.Layer_Default,horse_guide.controlers_grp" type="crvlist">
+   <primitive>
+    <clusters count="0" />
+    <curve closed="False" cp="0.0,-0.051429002239,0.478852091715,1.0,0.0,0.051429002239,0.478852091715,1.0,-0.84742111711,0.051429002239,0.24738949253,1.0,-0.84742111711,0.051429002239,-0.24738949253,1.0,-0.84742111711,-0.051429002239,-0.24738949253,1.0,-0.84742111711,-0.051429002239,0.24738949253,1.0,-0.84742111711,0.051429002239,0.24738949253,1.0,-0.84742111711,-0.051429002239,0.24738949253,1.0,0.0,-0.051429002239,0.478852091715,1.0,0.0,-0.051429002239,-0.478852091715,1.0,-0.84742111711,-0.051429002239,-0.24738949253,1.0,0.0,-0.051429002239,-0.478852091715,1.0,0.0,0.051429002239,-0.478852091715,1.0,0.0,0.051429002239,0.478852091715,1.0,0.0,0.051429002239,-0.478852091715,1.0,-0.84742111711,0.051429002239,-0.24738949253,1.0" degree="1" index="0" kn="0.0,1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0,11.0,12.0,13.0,14.0,15.0" ncp="16" nkn="16" />
+   </primitive>
+  </x3dobject>
+  <x3dobject fullName="horse_guide.ear_R0_fk0_ctl" id="867" model="horse_guide" name="ear_R0_fk0_ctl" owners="horse_guide.controlers_org,Layers.Layer_Default,horse_guide.controlers_grp" type="crvlist">
+   <primitive>
+    <clusters count="0" />
+    <curve closed="False" cp="0.0,-0.051429002239,0.29342800912,1.0,0.0,0.051429002239,0.29342800912,1.0,-0.874929801861,0.051429002239,0.478852091715,1.0,-0.874929801861,0.051429002239,-0.478852091715,1.0,-0.874929801861,-0.051429002239,-0.478852091715,1.0,-0.874929801861,-0.051429002239,0.478852091715,1.0,-0.874929801861,0.051429002239,0.478852091715,1.0,-0.874929801861,-0.051429002239,0.478852091715,1.0,0.0,-0.051429002239,0.29342800912,1.0,0.0,-0.051429002239,-0.29342800912,1.0,-0.874929801861,-0.051429002239,-0.478852091715,1.0,0.0,-0.051429002239,-0.29342800912,1.0,0.0,0.051429002239,-0.29342800912,1.0,0.0,0.051429002239,0.29342800912,1.0,0.0,0.051429002239,-0.29342800912,1.0,-0.874929801861,0.051429002239,-0.478852091715,1.0" degree="1" index="0" kn="0.0,1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0,11.0,12.0,13.0,14.0,15.0" ncp="16" nkn="16" />
+   </primitive>
+  </x3dobject>
+  <x3dobject fullName="horse_guide.tail_C0_fk3_ctl" id="886" model="horse_guide" name="tail_C0_fk3_ctl" owners="horse_guide.controlers_org,Layers.Layer_Default,horse_guide.controlers_grp" type="crvlist">
+   <primitive>
+    <clusters count="0" />
+    <curve closed="False" cp="1.5580998392,0.665010913136,0.665010913136,1.0,1.5580998392,0.665010913136,-0.665010913136,1.0,0.0,0.665010913136,-0.665010913136,1.0,0.0,-0.665010913136,-0.665010913136,1.0,0.0,-0.665010913136,0.665010913136,1.0,0.0,0.665010913136,0.665010913136,1.0,0.0,0.665010913136,-0.665010913136,1.0,0.0,0.665010913136,0.665010913136,1.0,1.5580998392,0.665010913136,0.665010913136,1.0,1.5580998392,-0.665010913136,0.665010913136,1.0,0.0,-0.665010913136,0.665010913136,1.0,1.5580998392,-0.665010913136,0.665010913136,1.0,1.5580998392,-0.665010913136,-0.665010913136,1.0,1.5580998392,0.665010913136,-0.665010913136,1.0,1.5580998392,-0.665010913136,-0.665010913136,1.0,0.0,-0.665010913136,-0.665010913136,1.0" degree="1" index="0" kn="0.0,1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0,11.0,12.0,13.0,14.0,15.0" ncp="16" nkn="16" />
+   </primitive>
+  </x3dobject>
+  <x3dobject fullName="horse_guide.spine_C0_ik0_ctl" id="898" model="horse_guide" name="spine_C0_ik0_ctl" owners="horse_guide.controlers_org,Layers.Layer_Default,horse_guide.controlers_grp" type="crvlist">
+   <primitive>
+    <clusters count="0" />
+    <curve closed="False" cp="3.27599867982,0.00032352959786,3.29159016533,1.0,1.85003846613,0.000323529597861,-2.41661414336,1.0,-1.85003846613,0.000323529597861,-2.41661414336,1.0,-1.85003846613,-1.95738970534,-1.52080535896,1.0,-2.83031068549,-2.26968749934,3.29159016533,1.0,-3.27599867982,0.00032352959786,3.29159016533,1.0,-1.85003846613,0.000323529597861,-2.41661414336,1.0,-3.27599867982,0.00032352959786,3.29159016533,1.0,3.27599867982,0.00032352959786,3.29159016533,1.0,2.83031068548,-2.26968749934,3.29159016533,1.0,-2.83031068549,-2.26968749934,3.29159016533,1.0,2.83031068548,-2.26968749934,3.29159016533,1.0,1.85003846613,-1.95738970534,-1.52080535896,1.0,1.85003846613,0.000323529597861,-2.41661414336,1.0,1.85003846613,-1.95738970534,-1.52080535896,1.0,-1.85003846613,-1.95738970534,-1.52080535896,1.0" degree="1" index="0" kn="0.0,1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0,11.0,12.0,13.0,14.0,15.0" ncp="16" nkn="16" />
+   </primitive>
+  </x3dobject>
+  <x3dobject fullName="horse_guide.spine_C0_fk0_ctl" id="910" model="horse_guide" name="spine_C0_fk0_ctl" owners="horse_guide.controlers_org,Layers.Layer_Default,horse_guide.controlers_grp" type="crvlist">
+   <primitive>
+    <clusters count="0" />
+    <curve closed="True" cp="2.77926719501,1.34524652575e-44,-9.93715233357e-45,1.0,1.3896335975,-1.80546477191e-16,-2.40691599478,1.0,-1.3896335975,-1.80546477191e-16,-2.40691599478,1.0,-2.77926719501,-1.34524652575e-44,9.93715233357e-45,1.0,-1.3896335975,1.80546477191e-16,2.40691599478,1.0,1.3896335975,1.80546477191e-16,2.40691599478,1.0" degree="3" index="0" kn="0.0,1.0,2.0,3.0,4.0,5.0,6.0" ncp="6" nkn="7" />
+   </primitive>
+  </x3dobject>
+  <x3dobject fullName="horse_guide.leg_R0_ik_ctl" id="922" model="horse_guide" name="leg_R0_ik_ctl" owners="horse_guide.controlers_org,Layers.Layer_Default,horse_guide.controlers_grp" type="crvlist">
+   <primitive>
+    <clusters count="0" />
+    <curve closed="False" cp="0.602779128162,0.602779128162,1.04323853418,1.0,0.602779128162,0.602779128162,0.0,1.0,-0.602779128162,0.602779128162,0.0,1.0,-0.602779128162,-0.602779128162,0.0,1.0,-0.602779128162,-0.602779128162,1.04323853418,1.0,-0.602779128162,0.602779128162,1.04323853418,1.0,-0.602779128162,0.602779128162,0.0,1.0,-0.602779128162,0.602779128162,1.04323853418,1.0,0.602779128162,0.602779128162,1.04323853418,1.0,0.602779128162,-0.602779128162,1.04323853418,1.0,-0.602779128162,-0.602779128162,1.04323853418,1.0,0.602779128162,-0.602779128162,1.04323853418,1.0,0.602779128162,-0.602779128162,0.0,1.0,0.602779128162,0.602779128162,0.0,1.0,0.602779128162,-0.602779128162,0.0,1.0,-0.602779128162,-0.602779128162,0.0,1.0" degree="1" index="0" kn="0.0,1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0,11.0,12.0,13.0,14.0,15.0" ncp="16" nkn="16" />
+   </primitive>
+  </x3dobject>
+  <x3dobject fullName="horse_guide.tail_C0_fk1_ctl" id="934" model="horse_guide" name="tail_C0_fk1_ctl" owners="horse_guide.controlers_org,Layers.Layer_Default,horse_guide.controlers_grp" type="crvlist">
+   <primitive>
+    <clusters count="0" />
+    <curve closed="False" cp="1.14258555593,0.665010913136,0.665010913136,1.0,1.14258555593,0.665010913136,-0.665010913136,1.0,0.0,0.665010913136,-0.665010913136,1.0,0.0,-0.665010913136,-0.665010913136,1.0,0.0,-0.665010913136,0.665010913136,1.0,0.0,0.665010913136,0.665010913136,1.0,0.0,0.665010913136,-0.665010913136,1.0,0.0,0.665010913136,0.665010913136,1.0,1.14258555593,0.665010913136,0.665010913136,1.0,1.14258555593,-0.665010913136,0.665010913136,1.0,0.0,-0.665010913136,0.665010913136,1.0,1.14258555593,-0.665010913136,0.665010913136,1.0,1.14258555593,-0.665010913136,-0.665010913136,1.0,1.14258555593,0.665010913136,-0.665010913136,1.0,1.14258555593,-0.665010913136,-0.665010913136,1.0,0.0,-0.665010913136,-0.665010913136,1.0" degree="1" index="0" kn="0.0,1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0,11.0,12.0,13.0,14.0,15.0" ncp="16" nkn="16" />
+   </primitive>
+  </x3dobject>
+  <x3dobject fullName="horse_guide.tail_C0_fk0_ctl" id="946" model="horse_guide" name="tail_C0_fk0_ctl" owners="horse_guide.controlers_org,Layers.Layer_Default,horse_guide.controlers_grp" type="crvlist">
+   <primitive>
+    <clusters count="0" />
+    <curve closed="False" cp="0.830313882078,0.665010913136,0.665010913136,1.0,0.830313882078,0.665010913136,-0.665010913136,1.0,0.0,0.665010913136,-0.665010913136,1.0,0.0,-0.665010913136,-0.665010913136,1.0,0.0,-0.665010913136,0.665010913136,1.0,0.0,0.665010913136,0.665010913136,1.0,0.0,0.665010913136,-0.665010913136,1.0,0.0,0.665010913136,0.665010913136,1.0,0.830313882078,0.665010913136,0.665010913136,1.0,0.830313882078,-0.665010913136,0.665010913136,1.0,0.0,-0.665010913136,0.665010913136,1.0,0.830313882078,-0.665010913136,0.665010913136,1.0,0.830313882078,-0.665010913136,-0.665010913136,1.0,0.830313882078,0.665010913136,-0.665010913136,1.0,0.830313882078,-0.665010913136,-0.665010913136,1.0,0.0,-0.665010913136,-0.665010913136,1.0" degree="1" index="0" kn="0.0,1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0,11.0,12.0,13.0,14.0,15.0" ncp="16" nkn="16" />
+   </primitive>
+  </x3dobject>
+  <x3dobject fullName="horse_guide.shoulder_L0_fk0_ctl" id="958" model="horse_guide" name="shoulder_L0_fk0_ctl" owners="horse_guide.controlers_org,Layers.Layer_Default,horse_guide.controlers_grp" type="crvlist">
+   <primitive>
+    <clusters count="0" />
+    <curve closed="False" cp="4.00977178049,-0.462609985048,1.53849707207,1.0,4.00977178049,0.497015849525,1.53849707207,1.0,0.0987154674617,1.37695613881,1.06097550986,1.0,0.0987154674617,1.37695613881,0.908600893236,1.0,0.11631878188,-0.468129363113,0.916955901677,1.0,0.11631878188,-0.468129363113,1.0693305183,1.0,0.0987154674617,1.37695613881,1.06097550986,1.0,0.11631878188,-0.468129363113,1.0693305183,1.0,4.00977178049,-0.462609985048,1.53849707207,1.0,4.00977178049,-0.462609985048,1.38612245545,1.0,0.11631878188,-0.468129363113,0.916955901677,1.0,4.00977178049,-0.462609985048,1.38612245545,1.0,4.00977178049,0.497015849525,1.38612245545,1.0,4.00977178049,0.497015849525,1.53849707207,1.0,4.00977178049,0.497015849525,1.38612245545,1.0,0.0987154674617,1.37695613881,0.908600893236,1.0" degree="1" index="0" kn="0.0,1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0,11.0,12.0,13.0,14.0,15.0" ncp="16" nkn="16" />
+   </primitive>
+  </x3dobject>
+  <x3dobject fullName="horse_guide.tail_C0_fk2_ctl" id="970" model="horse_guide" name="tail_C0_fk2_ctl" owners="horse_guide.controlers_org,Layers.Layer_Default,horse_guide.controlers_grp" type="crvlist">
+   <primitive>
+    <clusters count="0" />
+    <curve closed="False" cp="1.28101246132,0.665010913136,0.665010913136,1.0,1.28101246132,0.665010913136,-0.665010913136,1.0,0.0,0.665010913136,-0.665010913136,1.0,0.0,-0.665010913136,-0.665010913136,1.0,0.0,-0.665010913136,0.665010913136,1.0,0.0,0.665010913136,0.665010913136,1.0,0.0,0.665010913136,-0.665010913136,1.0,0.0,0.665010913136,0.665010913136,1.0,1.28101246132,0.665010913136,0.665010913136,1.0,1.28101246132,-0.665010913136,0.665010913136,1.0,0.0,-0.665010913136,0.665010913136,1.0,1.28101246132,-0.665010913136,0.665010913136,1.0,1.28101246132,-0.665010913136,-0.665010913136,1.0,1.28101246132,0.665010913136,-0.665010913136,1.0,1.28101246132,-0.665010913136,-0.665010913136,1.0,0.0,-0.665010913136,-0.665010913136,1.0" degree="1" index="0" kn="0.0,1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0,11.0,12.0,13.0,14.0,15.0" ncp="16" nkn="16" />
+   </primitive>
+  </x3dobject>
+  <x3dobject fullName="horse_guide.tail_C0_fk5_ctl" id="982" model="horse_guide" name="tail_C0_fk5_ctl" owners="horse_guide.controlers_org,Layers.Layer_Default,horse_guide.controlers_grp" type="crvlist">
+   <primitive>
+    <clusters count="0" />
+    <curve closed="False" cp="1.65503795546,0.665010913136,0.665010913136,1.0,1.65503795546,0.665010913136,-0.665010913136,1.0,0.0,0.665010913136,-0.665010913136,1.0,0.0,-0.665010913136,-0.665010913136,1.0,0.0,-0.665010913136,0.665010913136,1.0,0.0,0.665010913136,0.665010913136,1.0,0.0,0.665010913136,-0.665010913136,1.0,0.0,0.665010913136,0.665010913136,1.0,1.65503795546,0.665010913136,0.665010913136,1.0,1.65503795546,-0.665010913136,0.665010913136,1.0,0.0,-0.665010913136,0.665010913136,1.0,1.65503795546,-0.665010913136,0.665010913136,1.0,1.65503795546,-0.665010913136,-0.665010913136,1.0,1.65503795546,0.665010913136,-0.665010913136,1.0,1.65503795546,-0.665010913136,-0.665010913136,1.0,0.0,-0.665010913136,-0.665010913136,1.0" degree="1" index="0" kn="0.0,1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0,11.0,12.0,13.0,14.0,15.0" ncp="16" nkn="16" />
+   </primitive>
+  </x3dobject>
+  <x3dobject fullName="horse_guide.tail_C0_fk4_ctl" id="994" model="horse_guide" name="tail_C0_fk4_ctl" owners="horse_guide.controlers_org,Layers.Layer_Default,horse_guide.controlers_grp" type="crvlist">
+   <primitive>
+    <clusters count="0" />
+    <curve closed="False" cp="1.79475083707,0.665010913136,0.665010913136,1.0,1.79475083707,0.665010913136,-0.665010913136,1.0,0.0,0.665010913136,-0.665010913136,1.0,0.0,-0.665010913136,-0.665010913136,1.0,0.0,-0.665010913136,0.665010913136,1.0,0.0,0.665010913136,0.665010913136,1.0,0.0,0.665010913136,-0.665010913136,1.0,0.0,0.665010913136,0.665010913136,1.0,1.79475083707,0.665010913136,0.665010913136,1.0,1.79475083707,-0.665010913136,0.665010913136,1.0,0.0,-0.665010913136,0.665010913136,1.0,1.79475083707,-0.665010913136,0.665010913136,1.0,1.79475083707,-0.665010913136,-0.665010913136,1.0,1.79475083707,0.665010913136,-0.665010913136,1.0,1.79475083707,-0.665010913136,-0.665010913136,1.0,0.0,-0.665010913136,-0.665010913136,1.0" degree="1" index="0" kn="0.0,1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0,11.0,12.0,13.0,14.0,15.0" ncp="16" nkn="16" />
+   </primitive>
+  </x3dobject>
+  <x3dobject fullName="horse_guide.neck_C0_head_ctl" id="1006" model="horse_guide" name="neck_C0_head_ctl" owners="horse_guide.controlers_org,Layers.Layer_Default,horse_guide.controlers_grp" type="crvlist">
+   <primitive>
+    <clusters count="0" />
+    <curve closed="False" cp="0.988109721677,0.600935747348,3.13248821735,1.0,1.19758812903,1.81327541355,-0.566771579344,1.0,-1.19758812903,1.81327541355,-0.566771579344,1.0,-1.19758812903,-1.61645288827,-0.566771579344,1.0,-0.988109721677,-1.61645288827,3.13248821735,1.0,-0.988109721677,0.600935747348,3.13248821735,1.0,-1.19758812903,1.81327541355,-0.566771579344,1.0,-0.988109721677,0.600935747348,3.13248821735,1.0,0.988109721677,0.600935747348,3.13248821735,1.0,0.988109721677,-1.61645288827,3.13248821735,1.0,-0.988109721677,-1.61645288827,3.13248821735,1.0,0.988109721677,-1.61645288827,3.13248821735,1.0,1.19758812903,-1.61645288827,-0.566771579344,1.0,1.19758812903,1.81327541355,-0.566771579344,1.0,1.19758812903,-1.61645288827,-0.566771579344,1.0,-1.19758812903,-1.61645288827,-0.566771579344,1.0" degree="1" index="0" kn="0.0,1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0,11.0,12.0,13.0,14.0,15.0" ncp="16" nkn="16" />
+   </primitive>
+  </x3dobject>
+  <x3dobject fullName="horse_guide.tail_C0_fk6_ctl" id="1018" model="horse_guide" name="tail_C0_fk6_ctl" owners="horse_guide.controlers_org,Layers.Layer_Default,horse_guide.controlers_grp" type="crvlist">
+   <primitive>
+    <clusters count="0" />
+    <curve closed="False" cp="1.22274610893,0.665010913136,0.665010913136,1.0,1.22274610893,0.665010913136,-0.665010913136,1.0,0.0,0.665010913136,-0.665010913136,1.0,0.0,-0.665010913136,-0.665010913136,1.0,0.0,-0.665010913136,0.665010913136,1.0,0.0,0.665010913136,0.665010913136,1.0,0.0,0.665010913136,-0.665010913136,1.0,0.0,0.665010913136,0.665010913136,1.0,1.22274610893,0.665010913136,0.665010913136,1.0,1.22274610893,-0.665010913136,0.665010913136,1.0,0.0,-0.665010913136,0.665010913136,1.0,1.22274610893,-0.665010913136,0.665010913136,1.0,1.22274610893,-0.665010913136,-0.665010913136,1.0,1.22274610893,0.665010913136,-0.665010913136,1.0,1.22274610893,-0.665010913136,-0.665010913136,1.0,0.0,-0.665010913136,-0.665010913136,1.0" degree="1" index="0" kn="0.0,1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0,11.0,12.0,13.0,14.0,15.0" ncp="16" nkn="16" />
+   </primitive>
+  </x3dobject>
+ </controlers>
+ <component name="local_C0" parent="None" root_size="0.3" type="control_01">
+  <settings>
+   <parameter scriptName="color" value="0" valueType="3" />
+   <parameter scriptName="comp_type" value="control_01" valueType="8" />
+   <parameter scriptName="comp_index" value="0" valueType="3" />
+   <parameter scriptName="comp_name" value="local" valueType="8" />
+   <parameter scriptName="ctl_grp" value="" valueType="8" />
+   <parameter scriptName="connector" value="standard" valueType="8" />
+   <parameter scriptName="color_g" value="0.5" valueType="5" />
+   <parameter scriptName="roty" value="True" valueType="11" />
+   <parameter scriptName="comp_side" value="C" valueType="8" />
+   <parameter scriptName="ikref" value="0" valueType="3" />
+   <parameter scriptName="color_b" value="0.5" valueType="5" />
+   <parameter scriptName="rotorder" value="True" valueType="11" />
+   <parameter scriptName="posz" value="True" valueType="11" />
+   <parameter scriptName="posx" value="True" valueType="11" />
+   <parameter scriptName="posy" value="True" valueType="11" />
+   <parameter scriptName="shadow" value="False" valueType="11" />
+   <parameter scriptName="color_r" value="0.5" valueType="5" />
+   <parameter scriptName="icon" value="cross" valueType="8" />
+   <parameter scriptName="ikrefarray" value="" valueType="8" />
+   <parameter scriptName="rotx" value="True" valueType="11" />
+   <parameter scriptName="rotz" value="True" valueType="11" />
+   <parameter scriptName="set_ctl_grp" value="False" valueType="11" />
+   <parameter scriptName="uiHost" value="" valueType="8" />
+   <parameter scriptName="default_rotorder" value="0" valueType="3" />
+   <parameter scriptName="sclz" value="True" valueType="11" />
+   <parameter scriptName="sclx" value="True" valueType="11" />
+   <parameter scriptName="scly" value="True" valueType="11" />
+  </settings>
+  <objects>
+   <x3dobject fullName="horse_guide.local_C0_root" id="1029" localName="root" model="horse_guide" name="local_C0_root" owners="horse_guide,Layers.Layer_Default,horse_guide.hidden_grp" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="0.0" valueType="5" />
+      <parameter scriptName="posy" value="0.0" valueType="5" />
+      <parameter scriptName="posz" value="0.0" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.local_C0_icon" id="1043" localName="icon" model="horse_guide" name="local_C0_icon" owners="horse_guide.local_C0_root,Layers.Layer_Default" type="crvlist">
+    <primitive>
+     <clusters count="0" />
+     <curve closed="True" cp="1.27060906516,1.16703549346e-16,-1.90591359773,1,1.90591359773,7.78023662305e-17,-1.27060906516,1,0.635304532578,-1.01315918038e-33,1.21676354859e-17,1,1.90591359773,-7.78023662305e-17,1.27060906516,1,1.27060906516,-1.16703549346e-16,1.90591359773,1,2.43352709718e-17,-3.89011831153e-17,0.635304532578,1,-1.27060906516,-1.16703549346e-16,1.90591359773,1,-1.90591359773,-7.78023662305e-17,1.27060906516,1,-0.635304532578,-1.01315918038e-33,1.21676354859e-17,1,-1.90591359773,7.78023662305e-17,-1.27060906516,1,-1.27060906516,1.16703549346e-16,-1.90591359773,1,2.43352709718e-17,3.89011831153e-17,-0.635304532578,1" degree="1" index="0" kn="0.0,1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0,11.0,12.0" ncp="12" nkn="13" />
+    </primitive>
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="0.0" valueType="5" />
+      <parameter scriptName="posy" value="0.0" valueType="5" />
+      <parameter scriptName="posz" value="0.0" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+  </objects>
+ </component>
+ <component name="body_C0" parent="local_C0.icon" root_size="0.3" type="control_01">
+  <settings>
+   <parameter scriptName="color" value="1" valueType="3" />
+   <parameter scriptName="comp_type" value="control_01" valueType="8" />
+   <parameter scriptName="comp_index" value="0" valueType="3" />
+   <parameter scriptName="comp_name" value="body" valueType="8" />
+   <parameter scriptName="ctl_grp" value="" valueType="8" />
+   <parameter scriptName="connector" value="standard" valueType="8" />
+   <parameter scriptName="color_g" value="0.5" valueType="5" />
+   <parameter scriptName="roty" value="True" valueType="11" />
+   <parameter scriptName="comp_side" value="C" valueType="8" />
+   <parameter scriptName="ikref" value="0" valueType="3" />
+   <parameter scriptName="color_b" value="0.5" valueType="5" />
+   <parameter scriptName="rotorder" value="True" valueType="11" />
+   <parameter scriptName="posz" value="True" valueType="11" />
+   <parameter scriptName="posx" value="True" valueType="11" />
+   <parameter scriptName="posy" value="True" valueType="11" />
+   <parameter scriptName="shadow" value="True" valueType="11" />
+   <parameter scriptName="color_r" value="0.5" valueType="5" />
+   <parameter scriptName="icon" value="square" valueType="8" />
+   <parameter scriptName="ikrefarray" value="" valueType="8" />
+   <parameter scriptName="rotx" value="True" valueType="11" />
+   <parameter scriptName="rotz" value="True" valueType="11" />
+   <parameter scriptName="set_ctl_grp" value="False" valueType="11" />
+   <parameter scriptName="uiHost" value="" valueType="8" />
+   <parameter scriptName="default_rotorder" value="0" valueType="3" />
+   <parameter scriptName="sclz" value="True" valueType="11" />
+   <parameter scriptName="sclx" value="True" valueType="11" />
+   <parameter scriptName="scly" value="True" valueType="11" />
+  </settings>
+  <objects>
+   <x3dobject fullName="horse_guide.body_C0_root" id="1054" localName="root" model="horse_guide" name="body_C0_root" owners="horse_guide.local_C0_icon,Layers.Layer_Default,horse_guide.hidden_grp" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="0.0" valueType="5" />
+      <parameter scriptName="posy" value="11.8103310272" valueType="5" />
+      <parameter scriptName="posz" value="-2.03151316825" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.body_C0_icon" id="1068" localName="icon" model="horse_guide" name="body_C0_icon" owners="horse_guide.body_C0_root,Layers.Layer_Default" type="crvlist">
+    <primitive>
+     <clusters count="0" />
+     <curve closed="True" cp="1.28919618886,7.76051937017e-16,-2.61534122662,1,1.28919618886,8.29341313737e-16,-3.21537113645,1,-1.28919618886,8.29341313737e-16,-3.21537113645,1,-1.28919618886,7.76051937017e-16,-2.61534122662,1" degree="1" index="0" kn="0.0,1.0,2.0,3.0,4.0" ncp="4" nkn="5" />
+    </primitive>
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="0.0" valueType="5" />
+      <parameter scriptName="posy" value="11.3510048931" valueType="5" />
+      <parameter scriptName="posz" value="-4.61275190011" valueType="5" />
+      <parameter scriptName="rotx" value="90.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+  </objects>
+ </component>
+ <component name="spine_C0" parent="body_C0.icon" root_size="0.3" type="spine_ik_01">
+  <settings>
+   <fcurveparameter extrapolation="1" interpolation="3" keys="0.0,10.0,-13.3333333333,0.0,13.3333333333,0.0,3;40.0,100.0,-13.3333333333,0.0,20.0,0.0,3;100.0,10.0,-20.0,0.0,20.0,0.0,3" scriptName="sq_profile" />
+   <parameter scriptName="connector" value="standard" valueType="8" />
+   <parameter scriptName="maxstretch" value="1.5" valueType="5" />
+   <parameter scriptName="division" value="5" valueType="3" />
+   <parameter scriptName="comp_side" value="C" valueType="8" />
+   <parameter scriptName="comp_type" value="spine_ik_01" valueType="8" />
+   <parameter scriptName="set_ctl_grp" value="False" valueType="11" />
+   <parameter scriptName="comp_name" value="spine" valueType="8" />
+   <parameter scriptName="ctl_grp" value="" valueType="8" />
+   <parameter scriptName="uiHost" value="uispine_C0_icon" valueType="8" />
+   <parameter scriptName="lock_ori" value="1.0" valueType="5" />
+   <fcurveparameter extrapolation="1" interpolation="3" keys="0.0,-25.0,-13.3333333333,0.0,13.3333333333,0.0,3;40.0,-100.0,-13.3333333333,0.0,20.0,0.0,3;100.0,-10.0,-20.0,0.0,20.0,0.0,3" scriptName="st_profile" />
+   <parameter scriptName="comp_index" value="0" valueType="3" />
+   <parameter scriptName="softness" value="0.5" valueType="5" />
+   <parameter scriptName="position" value="0.0" valueType="5" />
+   <parameter scriptName="maxsquash" value="0.5" valueType="5" />
+   <parameter scriptName="fcurvecombo" value="0" valueType="3" />
+  </settings>
+  <objects>
+   <x3dobject fullName="horse_guide.spine_C0_blade" id="1107" localName="blade" model="horse_guide" name="spine_C0_blade" owners="horse_guide.spine_C0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" source="constraint" value="0.0" valueType="5" />
+      <parameter scriptName="posy" source="constraint" value="11.534139389" valueType="5" />
+      <parameter scriptName="posz" source="constraint" value="-5.49753160147" valueType="5" />
+      <parameter scriptName="rotx" source="constraint" value="90.0" valueType="5" />
+      <parameter scriptName="roty" source="constraint" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" source="constraint" value="90.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.spine_C0_root" id="1079" localName="root" model="horse_guide" name="spine_C0_root" owners="horse_guide.body_C0_icon,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="0.0" valueType="5" />
+      <parameter scriptName="posy" value="11.534139389" valueType="5" />
+      <parameter scriptName="posz" value="-5.49753160147" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.spine_C0_eff" id="1094" localName="eff" model="horse_guide" name="spine_C0_eff" owners="horse_guide.spine_C0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="0.0" valueType="5" />
+      <parameter scriptName="posy" value="11.534139389" valueType="5" />
+      <parameter scriptName="posz" value="4.10303273124" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+  </objects>
+ </component>
+ <component name="shoulder_L0" parent="spine_C0.eff" root_size="0.3" type="chain_01">
+  <settings>
+   <parameter scriptName="connector" value="standard" valueType="8" />
+   <parameter scriptName="neutralpose" value="False" valueType="11" />
+   <parameter scriptName="comp_side" value="L" valueType="8" />
+   <parameter scriptName="comp_type" value="chain_01" valueType="8" />
+   <parameter scriptName="set_ctl_grp" value="False" valueType="11" />
+   <parameter scriptName="blend" value="0" valueType="3" />
+   <parameter scriptName="comp_name" value="shoulder" valueType="8" />
+   <parameter scriptName="ctl_grp" value="" valueType="8" />
+   <parameter scriptName="uiHost" value="uiarms_C0_icon" valueType="8" />
+   <parameter scriptName="comp_index" value="0" valueType="3" />
+   <parameter scriptName="type" value="0" valueType="3" />
+  </settings>
+  <objects>
+   <x3dobject fullName="horse_guide.shoulder_L0_0_loc" id="1171" localName="0_loc" model="horse_guide" name="shoulder_L0_0_loc" owners="horse_guide.shoulder_L0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="1.5817419042" valueType="5" />
+      <parameter scriptName="posy" value="9.06462043237" valueType="5" />
+      <parameter scriptName="posz" value="4.2181557493" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.shoulder_L0_blade" id="1184" localName="blade" model="horse_guide" name="shoulder_L0_blade" owners="horse_guide.shoulder_L0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" source="constraint" value="1.13525187165" valueType="5" />
+      <parameter scriptName="posy" source="constraint" value="12.1282994206" valueType="5" />
+      <parameter scriptName="posz" source="constraint" value="2.42478704434" valueType="5" />
+      <parameter scriptName="rotx" source="constraint" value="97.2905109458" valueType="5" />
+      <parameter scriptName="roty" source="constraint" value="-59.6477584881" valueType="5" />
+      <parameter scriptName="rotz" source="constraint" value="89.8587448461" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.shoulder_L0_root" id="1158" localName="root" model="horse_guide" name="shoulder_L0_root" owners="horse_guide.spine_C0_eff,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="1.13525187165" valueType="5" />
+      <parameter scriptName="posy" value="12.1282994206" valueType="5" />
+      <parameter scriptName="posz" value="2.42478704434" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+  </objects>
+ </component>
+ <component name="arm_L0" parent="shoulder_L0.0_loc" root_size="0.3" type="leg_2jnt_01">
+  <settings>
+   <parameter scriptName="ikrefarray" value="local_C0_icon" valueType="8" />
+   <parameter scriptName="connector" value="standard" valueType="8" />
+   <parameter scriptName="maxstretch" value="1.5" valueType="5" />
+   <parameter scriptName="upvref" value="0" valueType="3" />
+   <parameter scriptName="comp_side" value="L" valueType="8" />
+   <parameter scriptName="comp_type" value="leg_2jnt_01" valueType="8" />
+   <parameter scriptName="ikref" value="0" valueType="3" />
+   <parameter scriptName="set_ctl_grp" value="False" valueType="11" />
+   <parameter scriptName="upvrefarray" value="local_C0_icon" valueType="8" />
+   <fcurveparameter extrapolation="1" interpolation="3" keys="0.0,10.0,-13.3333333333,0.0,13.3333333333,0.0,3;40.0,100.0,-13.3333333333,0.0,20.0,0.0,3;100.0,10.0,-20.0,0.0,20.0,0.0,3" scriptName="sq_profile" />
+   <parameter scriptName="comp_name" value="arm" valueType="8" />
+   <parameter scriptName="ctl_grp" value="" valueType="8" />
+   <parameter scriptName="uiHost" value="uiarms_C0_icon" valueType="8" />
+   <fcurveparameter extrapolation="1" interpolation="3" keys="0.0,-25.0,-13.3333333333,0.0,13.3333333333,0.0,3;40.0,-100.0,-13.3333333333,0.0,20.0,0.0,3;100.0,-10.0,-20.0,0.0,20.0,0.0,3" scriptName="st_profile" />
+   <parameter scriptName="comp_index" value="0" valueType="3" />
+   <parameter scriptName="blend" value="1" valueType="3" />
+   <parameter scriptName="fcurvecombo" value="0" valueType="3" />
+   <parameter scriptName="div1" value="2" valueType="3" />
+   <parameter scriptName="div0" value="2" valueType="3" />
+  </settings>
+  <objects>
+   <x3dobject fullName="horse_guide.arm_L0_ankle" id="1262" localName="ankle" model="horse_guide" name="arm_L0_ankle" owners="horse_guide.arm_L0_knee,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="1.5817419042" valueType="5" />
+      <parameter scriptName="posy" value="1.40488829199" valueType="5" />
+      <parameter scriptName="posz" value="3.61035802889" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.arm_L0_knee" id="1249" localName="knee" model="horse_guide" name="arm_L0_knee" owners="horse_guide.arm_L0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="1.5817419042" valueType="5" />
+      <parameter scriptName="posy" value="4.58864709352" valueType="5" />
+      <parameter scriptName="posz" value="3.87281042719" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.arm_L0_root" id="1234" localName="root" model="horse_guide" name="arm_L0_root" owners="horse_guide.shoulder_L0_0_loc,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="1.5817419042" valueType="5" />
+      <parameter scriptName="posy" value="9.06462043237" valueType="5" />
+      <parameter scriptName="posz" value="4.2181557493" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.arm_L0_eff" id="1275" localName="eff" model="horse_guide" name="arm_L0_eff" owners="horse_guide.arm_L0_ankle,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="1.5817419042" valueType="5" />
+      <parameter scriptName="posy" value="1.40488829199" valueType="5" />
+      <parameter scriptName="posz" value="4.78951172525" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+  </objects>
+ </component>
+ <component name="hand_L0" parent="arm_L0.ankle" root_size="0.3" type="foot_bk_01">
+  <settings>
+   <parameter scriptName="connector" value="leg_2jnt_01" valueType="8" />
+   <parameter scriptName="comp_side" value="L" valueType="8" />
+   <parameter scriptName="comp_type" value="foot_bk_01" valueType="8" />
+   <parameter scriptName="set_ctl_grp" value="False" valueType="11" />
+   <parameter scriptName="comp_name" value="hand" valueType="8" />
+   <parameter scriptName="ctl_grp" value="" valueType="8" />
+   <parameter scriptName="uiHost" value="uiarms_C0_icon" valueType="8" />
+   <parameter scriptName="comp_index" value="0" valueType="3" />
+   <parameter scriptName="roll" value="0" valueType="3" />
+  </settings>
+  <objects>
+   <x3dobject fullName="horse_guide.hand_L0_outpivot" id="1383" localName="outpivot" model="horse_guide" name="hand_L0_outpivot" owners="horse_guide.hand_L0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="2.14548671538" valueType="5" />
+      <parameter scriptName="posy" value="6.03961325396e-14" valueType="5" />
+      <parameter scriptName="posz" value="3.46204358788" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.hand_L0_0_loc" id="1333" localName="0_loc" model="horse_guide" name="hand_L0_0_loc" owners="horse_guide.hand_L0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="1.5817419042" valueType="5" />
+      <parameter scriptName="posy" value="0.00528321480173" valueType="5" />
+      <parameter scriptName="posz" value="4.9577535962" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.hand_L0_inpivot" id="1396" localName="inpivot" model="horse_guide" name="hand_L0_inpivot" owners="horse_guide.hand_L0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="1.17351317683" valueType="5" />
+      <parameter scriptName="posy" value="6.03961325396e-14" valueType="5" />
+      <parameter scriptName="posz" value="3.46204358788" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.hand_L0_root" id="1320" localName="root" model="horse_guide" name="hand_L0_root" owners="horse_guide.arm_L0_ankle,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="1.5817419042" valueType="5" />
+      <parameter scriptName="posy" value="1.40488829199" valueType="5" />
+      <parameter scriptName="posz" value="3.61035802889" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.hand_L0_heel" id="1370" localName="heel" model="horse_guide" name="hand_L0_heel" owners="horse_guide.hand_L0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="1.5817419042" valueType="5" />
+      <parameter scriptName="posy" value="6.03961325396e-14" valueType="5" />
+      <parameter scriptName="posz" value="3.46204358788" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+  </objects>
+ </component>
+ <component name="neck_C0" parent="spine_C0.eff" root_size="0.3" type="neck_ik_01">
+  <settings>
+   <parameter scriptName="ikrefarray" value="" valueType="8" />
+   <parameter scriptName="connector" value="standard" valueType="8" />
+   <parameter scriptName="maxstretch" value="1.5" valueType="5" />
+   <parameter scriptName="division" value="4" valueType="3" />
+   <parameter scriptName="comp_side" value="C" valueType="8" />
+   <parameter scriptName="comp_type" value="neck_ik_01" valueType="8" />
+   <parameter scriptName="ikref" value="0" valueType="3" />
+   <parameter scriptName="headrefarray" value="" valueType="8" />
+   <parameter scriptName="set_ctl_grp" value="False" valueType="11" />
+   <parameter scriptName="headref" value="0" valueType="3" />
+   <fcurveparameter extrapolation="1" interpolation="3" keys="0.0,10.0,-13.3333333333,0.0,13.3333333333,0.0,3;40.0,100.0,-13.3333333333,0.0,20.0,0.0,3;100.0,10.0,-20.0,0.0,20.0,0.0,3" scriptName="sq_profile" />
+   <parameter scriptName="comp_name" value="neck" valueType="8" />
+   <parameter scriptName="ctl_grp" value="" valueType="8" />
+   <parameter scriptName="uiHost" value="uispine_C0_icon" valueType="8" />
+   <fcurveparameter extrapolation="1" interpolation="3" keys="0.0,-25.0,-13.3333333333,0.0,13.3333333333,0.0,3;40.0,-100.0,-13.3333333333,0.0,20.0,0.0,3;100.0,-10.0,-20.0,0.0,20.0,0.0,3" scriptName="st_profile" />
+   <parameter scriptName="comp_index" value="0" valueType="3" />
+   <parameter scriptName="softness" value="0.5" valueType="5" />
+   <parameter scriptName="maxsquash" value="0.5" valueType="5" />
+   <parameter scriptName="fcurvecombo" value="0" valueType="3" />
+  </settings>
+  <objects>
+   <x3dobject fullName="horse_guide.neck_C0_head" id="1473" localName="head" model="horse_guide" name="neck_C0_head" owners="horse_guide.neck_C0_neck,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="0.0" valueType="5" />
+      <parameter scriptName="posy" value="18.1285239678" valueType="5" />
+      <parameter scriptName="posz" value="5.78453761297" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.neck_C0_neck" id="1460" localName="neck" model="horse_guide" name="neck_C0_neck" owners="horse_guide.neck_C0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="0.0" valueType="5" />
+      <parameter scriptName="posy" value="17.7521400061" valueType="5" />
+      <parameter scriptName="posz" value="5.47452732841" valueType="5" />
+      <parameter scriptName="rotx" value="-1.87990490258" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.neck_C0_blade" id="1525" localName="blade" model="horse_guide" name="neck_C0_blade" owners="horse_guide.neck_C0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" source="constraint" value="0.0" valueType="5" />
+      <parameter scriptName="posy" source="constraint" value="12.5028544441" valueType="5" />
+      <parameter scriptName="posz" source="constraint" value="3.98949961999" valueType="5" />
+      <parameter scriptName="rotx" source="constraint" value="90.0" valueType="5" />
+      <parameter scriptName="roty" source="constraint" value="74.2037430587" valueType="5" />
+      <parameter scriptName="rotz" source="constraint" value="90.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.neck_C0_tan1" id="1512" localName="tan1" model="horse_guide" name="neck_C0_tan1" owners="horse_guide.neck_C0_neck,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="0.0" valueType="5" />
+      <parameter scriptName="posy" value="15.9988786284" valueType="5" />
+      <parameter scriptName="posz" value="4.9785280738" valueType="5" />
+      <parameter scriptName="rotx" value="-1.87990490258" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.neck_C0_root" id="1445" localName="root" model="horse_guide" name="neck_C0_root" owners="horse_guide.spine_C0_eff,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="0.0" valueType="5" />
+      <parameter scriptName="posy" value="12.5028544441" valueType="5" />
+      <parameter scriptName="posz" value="3.98949961999" valueType="5" />
+      <parameter scriptName="rotx" value="-1.87990490258" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.neck_C0_eff" id="1486" localName="eff" model="horse_guide" name="neck_C0_eff" owners="horse_guide.neck_C0_head,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="0.0" valueType="5" />
+      <parameter scriptName="posy" value="19.6803143553" valueType="5" />
+      <parameter scriptName="posz" value="5.78453761297" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.neck_C0_tan0" id="1499" localName="tan0" model="horse_guide" name="neck_C0_tan0" owners="horse_guide.neck_C0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="0.0" valueType="5" />
+      <parameter scriptName="posy" value="14.2508665362" valueType="5" />
+      <parameter scriptName="posz" value="4.48401384689" valueType="5" />
+      <parameter scriptName="rotx" value="-1.87990490258" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+  </objects>
+ </component>
+ <component name="ear_L0" parent="neck_C0.eff" root_size="0.3" type="chain_01">
+  <settings>
+   <parameter scriptName="connector" value="standard" valueType="8" />
+   <parameter scriptName="neutralpose" value="False" valueType="11" />
+   <parameter scriptName="comp_side" value="L" valueType="8" />
+   <parameter scriptName="comp_type" value="chain_01" valueType="8" />
+   <parameter scriptName="set_ctl_grp" value="False" valueType="11" />
+   <parameter scriptName="blend" value="0" valueType="3" />
+   <parameter scriptName="comp_name" value="ear" valueType="8" />
+   <parameter scriptName="ctl_grp" value="" valueType="8" />
+   <parameter scriptName="uiHost" value="uispine_C0_icon" valueType="8" />
+   <parameter scriptName="comp_index" value="0" valueType="3" />
+   <parameter scriptName="type" value="0" valueType="3" />
+  </settings>
+  <objects>
+   <x3dobject fullName="horse_guide.ear_L0_0_loc" id="1624" localName="0_loc" model="horse_guide" name="ear_L0_0_loc" owners="horse_guide.ear_L0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="1.06397038819" valueType="5" />
+      <parameter scriptName="posy" value="20.3469375665" valueType="5" />
+      <parameter scriptName="posz" value="5.75272065122" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.ear_L0_1_loc" id="1637" localName="1_loc" model="horse_guide" name="ear_L0_1_loc" owners="horse_guide.ear_L0_0_loc,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="1.15022626378" valueType="5" />
+      <parameter scriptName="posy" value="21.184950446" valueType="5" />
+      <parameter scriptName="posz" value="5.8444642473" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.ear_L0_blade" id="1650" localName="blade" model="horse_guide" name="ear_L0_blade" owners="horse_guide.ear_L0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" source="constraint" value="0.690194927262" valueType="5" />
+      <parameter scriptName="posy" source="constraint" value="19.5558661013" valueType="5" />
+      <parameter scriptName="posz" source="constraint" value="5.75272065122" valueType="5" />
+      <parameter scriptName="rotx" source="constraint" value="12.6451950503" valueType="5" />
+      <parameter scriptName="roty" source="constraint" value="90.0" valueType="5" />
+      <parameter scriptName="rotz" source="constraint" value="-12.6451950503" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.ear_L0_root" id="1611" localName="root" model="horse_guide" name="ear_L0_root" owners="horse_guide.neck_C0_eff,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="0.690194927262" valueType="5" />
+      <parameter scriptName="posy" value="19.5558661013" valueType="5" />
+      <parameter scriptName="posz" value="5.75272065122" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+  </objects>
+ </component>
+ <component name="ear_R0" parent="neck_C0.eff" root_size="0.3" type="chain_01">
+  <settings>
+   <parameter scriptName="connector" value="standard" valueType="8" />
+   <parameter scriptName="neutralpose" value="False" valueType="11" />
+   <parameter scriptName="comp_side" value="R" valueType="8" />
+   <parameter scriptName="comp_type" value="chain_01" valueType="8" />
+   <parameter scriptName="set_ctl_grp" value="False" valueType="11" />
+   <parameter scriptName="blend" value="0" valueType="3" />
+   <parameter scriptName="comp_name" value="ear" valueType="8" />
+   <parameter scriptName="ctl_grp" value="" valueType="8" />
+   <parameter scriptName="uiHost" value="uispine_C0_icon" valueType="8" />
+   <parameter scriptName="comp_index" value="0" valueType="3" />
+   <parameter scriptName="type" value="0" valueType="3" />
+  </settings>
+  <objects>
+   <x3dobject fullName="horse_guide.ear_R0_0_loc" id="1717" localName="0_loc" model="horse_guide" name="ear_R0_0_loc" owners="horse_guide.ear_R0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="-1.06397038819" valueType="5" />
+      <parameter scriptName="posy" value="20.3469375665" valueType="5" />
+      <parameter scriptName="posz" value="5.75272065122" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="180.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.ear_R0_1_loc" id="1730" localName="1_loc" model="horse_guide" name="ear_R0_1_loc" owners="horse_guide.ear_R0_0_loc,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="-1.15022626378" valueType="5" />
+      <parameter scriptName="posy" value="21.184950446" valueType="5" />
+      <parameter scriptName="posz" value="5.8444642473" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="180.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.ear_R0_blade" id="1743" localName="blade" model="horse_guide" name="ear_R0_blade" owners="horse_guide.ear_R0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" source="constraint" value="-0.690194927262" valueType="5" />
+      <parameter scriptName="posy" source="constraint" value="19.5558661013" valueType="5" />
+      <parameter scriptName="posz" source="constraint" value="5.75272065122" valueType="5" />
+      <parameter scriptName="rotx" source="constraint" value="-12.6451954772" valueType="5" />
+      <parameter scriptName="roty" source="constraint" value="90.0" valueType="5" />
+      <parameter scriptName="rotz" source="constraint" value="12.6451954772" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.ear_R0_root" id="1704" localName="root" model="horse_guide" name="ear_R0_root" owners="horse_guide.neck_C0_eff,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="-0.690194927262" valueType="5" />
+      <parameter scriptName="posy" value="19.5558661013" valueType="5" />
+      <parameter scriptName="posz" value="5.75272065122" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="180.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+  </objects>
+ </component>
+ <component name="uispine_C0" parent="neck_C0.eff" root_size="1.0" type="control_01">
+  <settings>
+   <parameter scriptName="color" value="0" valueType="3" />
+   <parameter scriptName="comp_type" value="control_01" valueType="8" />
+   <parameter scriptName="comp_index" value="0" valueType="3" />
+   <parameter scriptName="comp_name" value="uispine" valueType="8" />
+   <parameter scriptName="ctl_grp" value="slider" valueType="8" />
+   <parameter scriptName="connector" value="standard" valueType="8" />
+   <parameter scriptName="color_g" value="0.5" valueType="5" />
+   <parameter scriptName="roty" value="False" valueType="11" />
+   <parameter scriptName="comp_side" value="C" valueType="8" />
+   <parameter scriptName="ikref" value="0" valueType="3" />
+   <parameter scriptName="color_b" value="0.5" valueType="5" />
+   <parameter scriptName="rotorder" value="False" valueType="11" />
+   <parameter scriptName="posz" value="False" valueType="11" />
+   <parameter scriptName="posx" value="False" valueType="11" />
+   <parameter scriptName="posy" value="False" valueType="11" />
+   <parameter scriptName="shadow" value="False" valueType="11" />
+   <parameter scriptName="color_r" value="0.5" valueType="5" />
+   <parameter scriptName="icon" value="null" valueType="8" />
+   <parameter scriptName="ikrefarray" value="" valueType="8" />
+   <parameter scriptName="rotx" value="False" valueType="11" />
+   <parameter scriptName="rotz" value="False" valueType="11" />
+   <parameter scriptName="set_ctl_grp" value="True" valueType="11" />
+   <parameter scriptName="uiHost" value="" valueType="8" />
+   <parameter scriptName="default_rotorder" value="0" valueType="3" />
+   <parameter scriptName="sclz" value="False" valueType="11" />
+   <parameter scriptName="sclx" value="False" valueType="11" />
+   <parameter scriptName="scly" value="False" valueType="11" />
+  </settings>
+  <objects>
+   <x3dobject fullName="horse_guide.uispine_C0_root" id="1797" localName="root" model="horse_guide" name="uispine_C0_root" owners="horse_guide.neck_C0_eff,Layers.Layer_Default,horse_guide.hidden_grp" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="-1.13512092658e-16" valueType="5" />
+      <parameter scriptName="posy" value="23.0" valueType="5" />
+      <parameter scriptName="posz" value="6.0" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.uispine_C0_icon" id="1811" localName="icon" model="horse_guide" name="uispine_C0_icon" owners="horse_guide.uispine_C0_root,Layers.Layer_Default" type="crvlist">
+    <primitive>
+     <clusters count="0" />
+     <curve closed="True" cp="0.0,23.6779812717,6.20980682704,1,0.0,23.8349002563,5.82558608615,1,0.0,23.7783056183,5.35883752944,1,0.0,23.9337005135,5.20673353935,1,0.0,24.2292946983,5.08526286808,1,0.0,24.4034016327,5.16066305087,1,0.0,24.2575553687,5.08654698029,1,0.0,24.0118222241,5.05703425913,1,0.0,23.2096320677,5.02495181104,1,0.0,22.8101788832,4.93141116593,1,0.0,22.7781753646,4.82116291263,1,0.0,23.2098256157,4.76526771284,1,0.0,24.0492885737,4.87402165712,1,0.0,24.3534737778,4.99782390368,1,0.0,24.4513619491,5.07627615284,1,0.0,24.4890972147,5.23629003243,1,0.0,24.6509222833,5.58099504635,1,0.0,24.5631921986,6.47455449919,1,0.0,24.7091043629,6.73672087333,1,0.0,25.4473922709,7.00954582044,1,0.0,25.5796880765,7.25214015188,1,0.0,25.5199862101,7.45404296622,1,0.0,25.3786240213,7.66655416284,1,0.0,25.2414182704,7.97958120612,1,0.0,24.9620707253,7.91801146552,1,0.0,25.0432919414,7.63331913745,1,0.0,25.0191066566,7.55365482043,1,0.0,25.0458081149,7.41149015598,1,0.0,24.4968810486,7.35480785014,1,0.0,24.2685194728,7.37517460522,1,0.0,23.8809523054,7.30317574791,1,0.0,23.6688915524,6.76925852961,1" degree="1" index="0" kn="0.0,1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0,11.0,12.0,13.0,14.0,15.0,16.0,17.0,18.0,19.0,20.0,21.0,22.0,23.0,24.0,25.0,26.0,27.0,28.0,29.0,30.0,31.0,32.0" ncp="32" nkn="33" />
+    </primitive>
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="0.0" valueType="5" />
+      <parameter scriptName="posy" value="6.03961325396e-14" valueType="5" />
+      <parameter scriptName="posz" value="0.0" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+  </objects>
+ </component>
+ <component name="uiarms_C0" parent="neck_C0.eff" root_size="1.0" type="control_01">
+  <settings>
+   <parameter scriptName="color" value="0" valueType="3" />
+   <parameter scriptName="comp_type" value="control_01" valueType="8" />
+   <parameter scriptName="comp_index" value="0" valueType="3" />
+   <parameter scriptName="comp_name" value="uiarms" valueType="8" />
+   <parameter scriptName="ctl_grp" value="slider" valueType="8" />
+   <parameter scriptName="connector" value="standard" valueType="8" />
+   <parameter scriptName="color_g" value="0.5" valueType="5" />
+   <parameter scriptName="roty" value="False" valueType="11" />
+   <parameter scriptName="comp_side" value="C" valueType="8" />
+   <parameter scriptName="ikref" value="0" valueType="3" />
+   <parameter scriptName="color_b" value="0.5" valueType="5" />
+   <parameter scriptName="rotorder" value="False" valueType="11" />
+   <parameter scriptName="posz" value="False" valueType="11" />
+   <parameter scriptName="posx" value="False" valueType="11" />
+   <parameter scriptName="posy" value="False" valueType="11" />
+   <parameter scriptName="shadow" value="False" valueType="11" />
+   <parameter scriptName="color_r" value="0.5" valueType="5" />
+   <parameter scriptName="icon" value="null" valueType="8" />
+   <parameter scriptName="ikrefarray" value="" valueType="8" />
+   <parameter scriptName="rotx" value="False" valueType="11" />
+   <parameter scriptName="rotz" value="False" valueType="11" />
+   <parameter scriptName="set_ctl_grp" value="True" valueType="11" />
+   <parameter scriptName="uiHost" value="" valueType="8" />
+   <parameter scriptName="default_rotorder" value="0" valueType="3" />
+   <parameter scriptName="sclz" value="False" valueType="11" />
+   <parameter scriptName="sclx" value="False" valueType="11" />
+   <parameter scriptName="scly" value="False" valueType="11" />
+  </settings>
+  <objects>
+   <x3dobject fullName="horse_guide.uiarms_C0_root" id="1822" localName="root" model="horse_guide" name="uiarms_C0_root" owners="horse_guide.neck_C0_eff,Layers.Layer_Default,horse_guide.hidden_grp" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="-1.13512092658e-16" valueType="5" />
+      <parameter scriptName="posy" value="23.0" valueType="5" />
+      <parameter scriptName="posz" value="6.0" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.uiarms_C0_icon" id="1836" localName="icon" model="horse_guide" name="uiarms_C0_icon" owners="horse_guide.uiarms_C0_root,Layers.Layer_Default" type="crvlist">
+    <primitive>
+     <clusters count="0" />
+     <curve closed="True" cp="0.235019074653,24.5438058522,6.89883633723,1,0.364759884826,24.2196876634,7.25817519277,1,0.32547754535,23.917907982,7.24999620245,1,0.362397925116,23.6128535689,7.08041070662,1,0.290737540683,23.2179364702,7.00781517649,1,0.312696916656,23.1748140687,7.01625927752,1,0.281227781108,23.1008134664,6.97587054946,1,0.273493218747,22.758262576,6.96358655074,1,0.322307902235,22.6963990715,7.00663291403,1,0.311789836861,22.6451235643,7.00233899204,1,0.336929322434,22.4841576448,7.13376708898,1,0.303662749495,22.4808216468,6.86418944175,1,0.312090650433,22.5815425248,6.87463949714,1,0.293860343555,22.6791262137,6.84250032364,1,0.251944762022,22.7626388592,6.87126669918,1,0.256038378745,23.1133849758,6.86656108643,1,0.282326581314,23.2221372811,6.82520053746,1,0.255974005986,23.2764076575,6.85578188501,1,0.339567374903,23.5926827478,6.86073699985,1,0.332903384913,23.7451524256,6.68209995155,1,0.276713275589,24.3509086903,6.57127271925,1" degree="1" index="0" kn="0.0,1.0,3.0,4.0,6.0,9.0,10.0,11.0,15.0,16.0,17.0,20.0,22.0,24.0,26.0,27.0,31.0,32.0,33.0,36.0,38.0,41.0" ncp="21" nkn="22" />
+     <curve closed="True" cp="-0.235019074653,24.5438058522,6.89883633723,1,-0.364759884826,24.2196876634,7.25817519277,1,-0.32547754535,23.917907982,7.24999620245,1,-0.362397925116,23.6128535689,7.08041070662,1,-0.290737540683,23.2179364702,7.00781517649,1,-0.312696916656,23.1748140687,7.01625927752,1,-0.281227781108,23.1008134664,6.97587054946,1,-0.273493218747,22.758262576,6.96358655074,1,-0.322307902235,22.6963990715,7.00663291403,1,-0.311789836861,22.6451235643,7.00233899204,1,-0.336929322434,22.4841576448,7.13376708898,1,-0.303662749495,22.4808216468,6.86418944175,1,-0.312090650433,22.5815425248,6.87463949714,1,-0.293860343555,22.6791262137,6.84250032364,1,-0.251944762022,22.7626388592,6.87126669918,1,-0.256038378745,23.1133849758,6.86656108643,1,-0.282326581314,23.2221372811,6.82520053746,1,-0.255974005986,23.2764076575,6.85578188501,1,-0.339567374903,23.5926827478,6.86073699985,1,-0.332903384913,23.7451524256,6.68209995155,1,-0.276713275589,24.3509086903,6.57127271925,1" degree="1" index="1" kn="0.0,1.0,3.0,4.0,6.0,9.0,10.0,11.0,15.0,16.0,17.0,20.0,22.0,24.0,26.0,27.0,31.0,32.0,33.0,36.0,38.0,41.0" ncp="21" nkn="22" />
+    </primitive>
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="0.0" valueType="5" />
+      <parameter scriptName="posy" value="6.03961325396e-14" valueType="5" />
+      <parameter scriptName="posz" value="0.0" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+  </objects>
+ </component>
+ <component name="uilegs_C0" parent="neck_C0.eff" root_size="1.0" type="control_01">
+  <settings>
+   <parameter scriptName="color" value="0" valueType="3" />
+   <parameter scriptName="comp_type" value="control_01" valueType="8" />
+   <parameter scriptName="comp_index" value="0" valueType="3" />
+   <parameter scriptName="comp_name" value="uilegs" valueType="8" />
+   <parameter scriptName="ctl_grp" value="slider" valueType="8" />
+   <parameter scriptName="connector" value="standard" valueType="8" />
+   <parameter scriptName="color_g" value="0.5" valueType="5" />
+   <parameter scriptName="roty" value="False" valueType="11" />
+   <parameter scriptName="comp_side" value="C" valueType="8" />
+   <parameter scriptName="ikref" value="0" valueType="3" />
+   <parameter scriptName="color_b" value="0.5" valueType="5" />
+   <parameter scriptName="rotorder" value="False" valueType="11" />
+   <parameter scriptName="posz" value="False" valueType="11" />
+   <parameter scriptName="posx" value="False" valueType="11" />
+   <parameter scriptName="posy" value="False" valueType="11" />
+   <parameter scriptName="shadow" value="False" valueType="11" />
+   <parameter scriptName="color_r" value="0.5" valueType="5" />
+   <parameter scriptName="icon" value="null" valueType="8" />
+   <parameter scriptName="ikrefarray" value="" valueType="8" />
+   <parameter scriptName="rotx" value="False" valueType="11" />
+   <parameter scriptName="rotz" value="False" valueType="11" />
+   <parameter scriptName="set_ctl_grp" value="True" valueType="11" />
+   <parameter scriptName="uiHost" value="" valueType="8" />
+   <parameter scriptName="default_rotorder" value="0" valueType="3" />
+   <parameter scriptName="sclz" value="False" valueType="11" />
+   <parameter scriptName="sclx" value="False" valueType="11" />
+   <parameter scriptName="scly" value="False" valueType="11" />
+  </settings>
+  <objects>
+   <x3dobject fullName="horse_guide.uilegs_C0_root" id="1847" localName="root" model="horse_guide" name="uilegs_C0_root" owners="horse_guide.neck_C0_eff,Layers.Layer_Default,horse_guide.hidden_grp" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="0.324437742384" valueType="5" />
+      <parameter scriptName="posy" value="23.4209512866" valueType="5" />
+      <parameter scriptName="posz" value="5.34351901861" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.uilegs_C0_icon" id="1861" localName="icon" model="horse_guide" name="uilegs_C0_icon" owners="horse_guide.uilegs_C0_root,Layers.Layer_Default" type="crvlist">
+    <primitive>
+     <clusters count="0" />
+     <curve closed="True" cp="0.292287642795,24.5221103227,5.56871227824,1,0.41641887594,24.1169656824,5.75319101212,1,0.383769770644,23.7440459246,5.59587150868,1,0.28715677449,23.2179364702,5.18495465875,1,0.310481926967,23.1748140687,5.19339875978,1,0.277012743085,23.1289762603,5.15361133662,1,0.287739903302,22.7587428282,5.15136994405,1,0.320690673533,22.6963990715,5.18377239629,1,0.309518430801,22.6451235643,5.1794784743,1,0.334145875537,22.4695919726,5.29829587212,1,0.297270876712,22.4695805763,5.07472701187,1,0.309837953654,22.5815425248,5.07428407846,1,0.290473801953,22.6791262137,5.04214490496,1,0.25093089073,22.7628508872,5.06119715848,1,0.250231100993,23.1358212316,5.04164676091,1,0.278222690481,23.2221372811,5.00234001972,1,0.250231100993,23.2867472226,5.03550497567,1,0.343203047008,23.6993541818,5.17764732034,1,0.340258287191,24.1628649829,5.07009862699,1" degree="1" index="0" kn="0.0,1.0,3.0,5.0,9.0,10.0,11.0,15.0,16.0,17.0,22.0,24.0,28.0,30.0,31.0,35.0,36.0,37.0,40.0,43.0" ncp="19" nkn="20" />
+     <curve closed="True" cp="-0.292287642795,24.5221103227,5.56871227824,1,-0.41641887594,24.1169656824,5.75319101212,1,-0.383769770644,23.7440459246,5.59587150868,1,-0.28715677449,23.2179364702,5.18495465875,1,-0.310481926967,23.1748140687,5.19339875978,1,-0.277012743085,23.1289762603,5.15361133662,1,-0.287739903302,22.7587428282,5.15136994405,1,-0.320690673533,22.6963990715,5.18377239629,1,-0.309518430801,22.6451235643,5.1794784743,1,-0.334145875537,22.4695919726,5.29829587212,1,-0.297270876712,22.4695805763,5.07472701187,1,-0.309837953654,22.5815425248,5.07428407846,1,-0.290473801953,22.6791262137,5.04214490496,1,-0.25093089073,22.7628508872,5.06119715848,1,-0.250231100993,23.1358212316,5.04164676091,1,-0.278222690481,23.2221372811,5.00234001972,1,-0.250231100993,23.2867472226,5.03550497567,1,-0.343203047008,23.6993541818,5.17764732034,1,-0.340258287191,24.1628649829,5.07009862699,1" degree="1" index="1" kn="0.0,1.0,3.0,5.0,9.0,10.0,11.0,15.0,16.0,17.0,22.0,24.0,28.0,30.0,31.0,35.0,36.0,37.0,40.0,43.0" ncp="19" nkn="20" />
+    </primitive>
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="0.0" valueType="5" />
+      <parameter scriptName="posy" value="6.03961325396e-14" valueType="5" />
+      <parameter scriptName="posz" value="0.0" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+  </objects>
+ </component>
+ <component name="shoulder_R0" parent="spine_C0.eff" root_size="0.3" type="chain_01">
+  <settings>
+   <parameter scriptName="connector" value="standard" valueType="8" />
+   <parameter scriptName="neutralpose" value="False" valueType="11" />
+   <parameter scriptName="comp_side" value="R" valueType="8" />
+   <parameter scriptName="comp_type" value="chain_01" valueType="8" />
+   <parameter scriptName="set_ctl_grp" value="False" valueType="11" />
+   <parameter scriptName="blend" value="0" valueType="3" />
+   <parameter scriptName="comp_name" value="shoulder" valueType="8" />
+   <parameter scriptName="ctl_grp" value="" valueType="8" />
+   <parameter scriptName="uiHost" value="uiarms_C0_icon" valueType="8" />
+   <parameter scriptName="comp_index" value="0" valueType="3" />
+   <parameter scriptName="type" value="0" valueType="3" />
+  </settings>
+  <objects>
+   <x3dobject fullName="horse_guide.shoulder_R0_0_loc" id="1885" localName="0_loc" model="horse_guide" name="shoulder_R0_0_loc" owners="horse_guide.shoulder_R0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="-1.5817419042" valueType="5" />
+      <parameter scriptName="posy" value="9.06462043237" valueType="5" />
+      <parameter scriptName="posz" value="4.2181557493" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="180.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.shoulder_R0_blade" id="1898" localName="blade" model="horse_guide" name="shoulder_R0_blade" owners="horse_guide.shoulder_R0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" source="constraint" value="-1.13525187165" valueType="5" />
+      <parameter scriptName="posy" source="constraint" value="12.1282994206" valueType="5" />
+      <parameter scriptName="posz" source="constraint" value="2.42478704434" valueType="5" />
+      <parameter scriptName="rotx" source="constraint" value="82.7094899262" valueType="5" />
+      <parameter scriptName="roty" source="constraint" value="-59.6477582588" valueType="5" />
+      <parameter scriptName="rotz" source="constraint" value="90.1412550958" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.shoulder_R0_root" id="1872" localName="root" model="horse_guide" name="shoulder_R0_root" owners="horse_guide.spine_C0_eff,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="-1.13525187165" valueType="5" />
+      <parameter scriptName="posy" value="12.1282994206" valueType="5" />
+      <parameter scriptName="posz" value="2.42478704434" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="180.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+  </objects>
+ </component>
+ <component name="arm_R0" parent="shoulder_R0.0_loc" root_size="0.3" type="leg_2jnt_01">
+  <settings>
+   <parameter scriptName="ikrefarray" value="local_C0_icon" valueType="8" />
+   <parameter scriptName="connector" value="standard" valueType="8" />
+   <parameter scriptName="maxstretch" value="1.5" valueType="5" />
+   <parameter scriptName="upvref" value="0" valueType="3" />
+   <parameter scriptName="comp_side" value="R" valueType="8" />
+   <parameter scriptName="comp_type" value="leg_2jnt_01" valueType="8" />
+   <parameter scriptName="ikref" value="0" valueType="3" />
+   <parameter scriptName="set_ctl_grp" value="False" valueType="11" />
+   <parameter scriptName="upvrefarray" value="local_C0_icon" valueType="8" />
+   <fcurveparameter extrapolation="1" interpolation="3" keys="0.0,10.0,-13.3333333333,0.0,13.3333333333,0.0,3;40.0,100.0,-13.3333333333,0.0,20.0,0.0,3;100.0,10.0,-20.0,0.0,20.0,0.0,3" scriptName="sq_profile" />
+   <parameter scriptName="comp_name" value="arm" valueType="8" />
+   <parameter scriptName="ctl_grp" value="" valueType="8" />
+   <parameter scriptName="uiHost" value="uiarms_C0_icon" valueType="8" />
+   <fcurveparameter extrapolation="1" interpolation="3" keys="0.0,-25.0,-13.3333333333,0.0,13.3333333333,0.0,3;40.0,-100.0,-13.3333333333,0.0,20.0,0.0,3;100.0,-10.0,-20.0,0.0,20.0,0.0,3" scriptName="st_profile" />
+   <parameter scriptName="comp_index" value="0" valueType="3" />
+   <parameter scriptName="blend" value="1" valueType="3" />
+   <parameter scriptName="fcurvecombo" value="0" valueType="3" />
+   <parameter scriptName="div1" value="2" valueType="3" />
+   <parameter scriptName="div0" value="2" valueType="3" />
+  </settings>
+  <objects>
+   <x3dobject fullName="horse_guide.arm_R0_ankle" id="1976" localName="ankle" model="horse_guide" name="arm_R0_ankle" owners="horse_guide.arm_R0_knee,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="-1.5817419042" valueType="5" />
+      <parameter scriptName="posy" value="1.40488829199" valueType="5" />
+      <parameter scriptName="posz" value="3.61035802889" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="180.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.arm_R0_knee" id="1963" localName="knee" model="horse_guide" name="arm_R0_knee" owners="horse_guide.arm_R0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="-1.5817419042" valueType="5" />
+      <parameter scriptName="posy" value="4.58864709352" valueType="5" />
+      <parameter scriptName="posz" value="3.87281042719" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="180.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.arm_R0_root" id="1948" localName="root" model="horse_guide" name="arm_R0_root" owners="horse_guide.shoulder_R0_0_loc,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="-1.5817419042" valueType="5" />
+      <parameter scriptName="posy" value="9.06462043237" valueType="5" />
+      <parameter scriptName="posz" value="4.2181557493" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="180.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.arm_R0_eff" id="1989" localName="eff" model="horse_guide" name="arm_R0_eff" owners="horse_guide.arm_R0_ankle,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="-1.5817419042" valueType="5" />
+      <parameter scriptName="posy" value="1.40488829199" valueType="5" />
+      <parameter scriptName="posz" value="4.78951172525" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="180.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+  </objects>
+ </component>
+ <component name="hand_R0" parent="arm_R0.ankle" root_size="0.3" type="foot_bk_01">
+  <settings>
+   <parameter scriptName="connector" value="leg_2jnt_01" valueType="8" />
+   <parameter scriptName="comp_side" value="R" valueType="8" />
+   <parameter scriptName="comp_type" value="foot_bk_01" valueType="8" />
+   <parameter scriptName="set_ctl_grp" value="False" valueType="11" />
+   <parameter scriptName="comp_name" value="hand" valueType="8" />
+   <parameter scriptName="ctl_grp" value="" valueType="8" />
+   <parameter scriptName="uiHost" value="uiarms_C0_icon" valueType="8" />
+   <parameter scriptName="comp_index" value="0" valueType="3" />
+   <parameter scriptName="roll" value="0" valueType="3" />
+  </settings>
+  <objects>
+   <x3dobject fullName="horse_guide.hand_R0_outpivot" id="2097" localName="outpivot" model="horse_guide" name="hand_R0_outpivot" owners="horse_guide.hand_R0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="-2.14548671538" valueType="5" />
+      <parameter scriptName="posy" value="6.03961325396e-14" valueType="5" />
+      <parameter scriptName="posz" value="3.46204358788" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="180.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.hand_R0_0_loc" id="2047" localName="0_loc" model="horse_guide" name="hand_R0_0_loc" owners="horse_guide.hand_R0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="-1.5817419042" valueType="5" />
+      <parameter scriptName="posy" value="0.00528321480173" valueType="5" />
+      <parameter scriptName="posz" value="4.9577535962" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="180.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.hand_R0_inpivot" id="2110" localName="inpivot" model="horse_guide" name="hand_R0_inpivot" owners="horse_guide.hand_R0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="-1.17351317683" valueType="5" />
+      <parameter scriptName="posy" value="6.03961325396e-14" valueType="5" />
+      <parameter scriptName="posz" value="3.46204358788" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="180.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.hand_R0_root" id="2034" localName="root" model="horse_guide" name="hand_R0_root" owners="horse_guide.arm_R0_ankle,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="-1.5817419042" valueType="5" />
+      <parameter scriptName="posy" value="1.40488829199" valueType="5" />
+      <parameter scriptName="posz" value="3.61035802889" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="180.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.hand_R0_heel" id="2084" localName="heel" model="horse_guide" name="hand_R0_heel" owners="horse_guide.hand_R0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="-1.5817419042" valueType="5" />
+      <parameter scriptName="posy" value="6.03961325396e-14" valueType="5" />
+      <parameter scriptName="posz" value="3.46204358788" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="180.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+  </objects>
+ </component>
+ <component name="leg_L0" parent="spine_C0.root" root_size="0.3" type="leg_3jnt_01">
+  <settings>
+   <parameter scriptName="ikrefarray" value="local_C0_icon" valueType="8" />
+   <parameter scriptName="connector" value="standard" valueType="8" />
+   <parameter scriptName="maxstretch" value="1.5" valueType="5" />
+   <parameter scriptName="upvref" value="0" valueType="3" />
+   <parameter scriptName="fcurvecombo" value="0" valueType="3" />
+   <parameter scriptName="comp_side" value="L" valueType="8" />
+   <parameter scriptName="comp_type" value="leg_3jnt_01" valueType="8" />
+   <parameter scriptName="ikref" value="0" valueType="3" />
+   <fcurveparameter extrapolation="1" interpolation="3" keys="0.0,10.0,-13.3333333333,0.0,13.3333333333,0.0,3;40.0,100.0,-13.3333333333,0.0,20.0,0.0,3;100.0,10.0,-20.0,0.0,20.0,0.0,3" scriptName="sq_profile" />
+   <parameter scriptName="set_ctl_grp" value="False" valueType="11" />
+   <parameter scriptName="upvrefarray" value="local_C0_icon" valueType="8" />
+   <parameter scriptName="div2" value="2" valueType="3" />
+   <parameter scriptName="comp_name" value="leg" valueType="8" />
+   <parameter scriptName="ctl_grp" value="" valueType="8" />
+   <parameter scriptName="uiHost" value="uilegs_C0_icon" valueType="8" />
+   <fcurveparameter extrapolation="1" interpolation="3" keys="0.0,-25.0,-13.3333333333,0.0,13.3333333333,0.0,3;40.0,-100.0,-13.3333333333,0.0,20.0,0.0,3;100.0,-10.0,-20.0,0.0,20.0,0.0,3" scriptName="st_profile" />
+   <parameter scriptName="comp_index" value="0" valueType="3" />
+   <parameter scriptName="blend" value="1" valueType="3" />
+   <parameter scriptName="roll" value="0" valueType="3" />
+   <parameter scriptName="div1" value="2" valueType="3" />
+   <parameter scriptName="div0" value="1" valueType="3" />
+  </settings>
+  <objects>
+   <x3dobject fullName="horse_guide.leg_L0_ankle" id="2187" localName="ankle" model="horse_guide" name="leg_L0_ankle" owners="horse_guide.leg_L0_knee,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="1.55076175344" valueType="5" />
+      <parameter scriptName="posy" value="4.6579842224" valueType="5" />
+      <parameter scriptName="posz" value="-7.90442090207" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.leg_L0_knee" id="2174" localName="knee" model="horse_guide" name="leg_L0_knee" owners="horse_guide.leg_L0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="1.55076175344" valueType="5" />
+      <parameter scriptName="posy" value="8.24793083969" valueType="5" />
+      <parameter scriptName="posz" value="-5.84615974016" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.leg_L0_meta" id="2200" localName="meta" model="horse_guide" name="leg_L0_meta" owners="horse_guide.leg_L0_ankle,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="1.55076175344" valueType="5" />
+      <parameter scriptName="posy" value="1.38285958423" valueType="5" />
+      <parameter scriptName="posz" value="-7.87410096633" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.leg_L0_root" id="2159" localName="root" model="horse_guide" name="leg_L0_root" owners="horse_guide.spine_C0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="1.55076175344" valueType="5" />
+      <parameter scriptName="posy" value="11.1662809685" valueType="5" />
+      <parameter scriptName="posz" value="-5.59086039583" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.leg_L0_eff" id="2213" localName="eff" model="horse_guide" name="leg_L0_eff" owners="horse_guide.leg_L0_meta,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="1.55076175344" valueType="5" />
+      <parameter scriptName="posy" value="1.38285958423" valueType="5" />
+      <parameter scriptName="posz" value="-6.73512027766" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+  </objects>
+ </component>
+ <component name="foot_L0" parent="leg_L0.meta" root_size="0.3" type="foot_bk_01">
+  <settings>
+   <parameter scriptName="connector" value="leg_3jnt_01" valueType="8" />
+   <parameter scriptName="comp_side" value="L" valueType="8" />
+   <parameter scriptName="comp_type" value="foot_bk_01" valueType="8" />
+   <parameter scriptName="set_ctl_grp" value="False" valueType="11" />
+   <parameter scriptName="comp_name" value="foot" valueType="8" />
+   <parameter scriptName="ctl_grp" value="" valueType="8" />
+   <parameter scriptName="uiHost" value="uilegs_C0_icon" valueType="8" />
+   <parameter scriptName="comp_index" value="0" valueType="3" />
+   <parameter scriptName="roll" value="0" valueType="3" />
+  </settings>
+  <objects>
+   <x3dobject fullName="horse_guide.foot_L0_outpivot" id="2325" localName="outpivot" model="horse_guide" name="foot_L0_outpivot" owners="horse_guide.foot_L0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="2.04873408125" valueType="5" />
+      <parameter scriptName="posy" value="6.03961325396e-14" valueType="5" />
+      <parameter scriptName="posz" value="-8.08971419351" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.foot_L0_0_loc" id="2275" localName="0_loc" model="horse_guide" name="foot_L0_0_loc" owners="horse_guide.foot_L0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="1.55076175344" valueType="5" />
+      <parameter scriptName="posy" value="0.00488373458941" valueType="5" />
+      <parameter scriptName="posz" value="-6.76353733876" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.foot_L0_inpivot" id="2338" localName="inpivot" model="horse_guide" name="foot_L0_inpivot" owners="horse_guide.foot_L0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="0.995286431061" valueType="5" />
+      <parameter scriptName="posy" value="6.03961325396e-14" valueType="5" />
+      <parameter scriptName="posz" value="-8.08971419351" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.foot_L0_root" id="2262" localName="root" model="horse_guide" name="foot_L0_root" owners="horse_guide.leg_L0_meta,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="1.55076175344" valueType="5" />
+      <parameter scriptName="posy" value="1.38285958423" valueType="5" />
+      <parameter scriptName="posz" value="-7.87410096633" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.foot_L0_heel" id="2312" localName="heel" model="horse_guide" name="foot_L0_heel" owners="horse_guide.foot_L0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="1.55076175344" valueType="5" />
+      <parameter scriptName="posy" value="6.03961325396e-14" valueType="5" />
+      <parameter scriptName="posz" value="-8.08971419351" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+  </objects>
+ </component>
+ <component name="tail_C0" parent="spine_C0.root" root_size="0.3" type="tail_01">
+  <settings>
+   <parameter scriptName="connector" value="standard" valueType="8" />
+   <parameter scriptName="comp_side" value="C" valueType="8" />
+   <parameter scriptName="comp_type" value="tail_01" valueType="8" />
+   <parameter scriptName="set_ctl_grp" value="False" valueType="11" />
+   <parameter scriptName="blend" value="0.7" valueType="5" />
+   <parameter scriptName="comp_name" value="tail" valueType="8" />
+   <parameter scriptName="ctl_grp" value="" valueType="8" />
+   <parameter scriptName="uiHost" value="uispine_C0_icon" valueType="8" />
+   <parameter scriptName="multi_blend" value="True" valueType="11" />
+   <parameter scriptName="damping" value="0.7" valueType="5" />
+   <parameter scriptName="comp_index" value="0" valueType="3" />
+   <parameter scriptName="speed" value="0.5" valueType="5" />
+  </settings>
+  <objects>
+   <x3dobject fullName="horse_guide.tail_C0_0_loc" id="2400" localName="0_loc" model="horse_guide" name="tail_C0_0_loc" owners="horse_guide.tail_C0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="0.0" valueType="5" />
+      <parameter scriptName="posy" value="11.8284679447" valueType="5" />
+      <parameter scriptName="posz" value="-8.25108014233" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.tail_C0_1_loc" id="2413" localName="1_loc" model="horse_guide" name="tail_C0_1_loc" owners="horse_guide.tail_C0_0_loc,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="0.0" valueType="5" />
+      <parameter scriptName="posy" value="10.6315694908" valueType="5" />
+      <parameter scriptName="posz" value="-8.64984828836" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.tail_C0_2_loc" id="2426" localName="2_loc" model="horse_guide" name="tail_C0_2_loc" owners="horse_guide.tail_C0_1_loc,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="0.0" valueType="5" />
+      <parameter scriptName="posy" value="9.23066634486" valueType="5" />
+      <parameter scriptName="posz" value="-8.84494085657" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.tail_C0_3_loc" id="2439" localName="3_loc" model="horse_guide" name="tail_C0_3_loc" owners="horse_guide.tail_C0_2_loc,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="0.0" valueType="5" />
+      <parameter scriptName="posy" value="7.52081141073" valueType="5" />
+      <parameter scriptName="posz" value="-9.03483044993" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.tail_C0_4_loc" id="2452" localName="4_loc" model="horse_guide" name="tail_C0_4_loc" owners="horse_guide.tail_C0_3_loc,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="0.0" valueType="5" />
+      <parameter scriptName="posy" value="5.5449790424" valueType="5" />
+      <parameter scriptName="posz" value="-9.18674212461" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.tail_C0_5_loc" id="2465" localName="5_loc" model="horse_guide" name="tail_C0_5_loc" owners="horse_guide.tail_C0_4_loc,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="0.0" valueType="5" />
+      <parameter scriptName="posy" value="3.72113377932" valueType="5" />
+      <parameter scriptName="posz" value="-9.30067588062" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.tail_C0_6_loc" id="2478" localName="6_loc" model="horse_guide" name="tail_C0_6_loc" owners="horse_guide.tail_C0_5_loc,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="0.0" valueType="5" />
+      <parameter scriptName="posy" value="2.37224822017" valueType="5" />
+      <parameter scriptName="posz" value="-9.35764275862" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.tail_C0_blade" id="2491" localName="blade" model="horse_guide" name="tail_C0_blade" owners="horse_guide.tail_C0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" source="constraint" value="0.0" valueType="5" />
+      <parameter scriptName="posy" source="constraint" value="12.4174179775" valueType="5" />
+      <parameter scriptName="posz" source="constraint" value="-7.54848864693" valueType="5" />
+      <parameter scriptName="rotx" source="constraint" value="-90.0" valueType="5" />
+      <parameter scriptName="roty" source="constraint" value="-39.9715511688" valueType="5" />
+      <parameter scriptName="rotz" source="constraint" value="-90.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.tail_C0_root" id="2387" localName="root" model="horse_guide" name="tail_C0_root" owners="horse_guide.spine_C0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="0.0" valueType="5" />
+      <parameter scriptName="posy" value="12.4174179775" valueType="5" />
+      <parameter scriptName="posz" value="-7.54848864693" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="0.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+  </objects>
+ </component>
+ <component name="leg_R0" parent="spine_C0.root" root_size="0.3" type="leg_3jnt_01">
+  <settings>
+   <parameter scriptName="ikrefarray" value="local_C0_icon" valueType="8" />
+   <parameter scriptName="connector" value="standard" valueType="8" />
+   <parameter scriptName="maxstretch" value="1.5" valueType="5" />
+   <parameter scriptName="upvref" value="0" valueType="3" />
+   <parameter scriptName="fcurvecombo" value="0" valueType="3" />
+   <parameter scriptName="comp_side" value="R" valueType="8" />
+   <parameter scriptName="comp_type" value="leg_3jnt_01" valueType="8" />
+   <parameter scriptName="ikref" value="0" valueType="3" />
+   <fcurveparameter extrapolation="1" interpolation="3" keys="0.0,10.0,-13.3333333333,0.0,13.3333333333,0.0,3;40.0,100.0,-13.3333333333,0.0,20.0,0.0,3;100.0,10.0,-20.0,0.0,20.0,0.0,3" scriptName="sq_profile" />
+   <parameter scriptName="set_ctl_grp" value="False" valueType="11" />
+   <parameter scriptName="upvrefarray" value="local_C0_icon" valueType="8" />
+   <parameter scriptName="div2" value="2" valueType="3" />
+   <parameter scriptName="comp_name" value="leg" valueType="8" />
+   <parameter scriptName="ctl_grp" value="" valueType="8" />
+   <parameter scriptName="uiHost" value="uilegs_C0_icon" valueType="8" />
+   <fcurveparameter extrapolation="1" interpolation="3" keys="0.0,-25.0,-13.3333333333,0.0,13.3333333333,0.0,3;40.0,-100.0,-13.3333333333,0.0,20.0,0.0,3;100.0,-10.0,-20.0,0.0,20.0,0.0,3" scriptName="st_profile" />
+   <parameter scriptName="comp_index" value="0" valueType="3" />
+   <parameter scriptName="blend" value="1" valueType="3" />
+   <parameter scriptName="roll" value="0" valueType="3" />
+   <parameter scriptName="div1" value="2" valueType="3" />
+   <parameter scriptName="div0" value="1" valueType="3" />
+  </settings>
+  <objects>
+   <x3dobject fullName="horse_guide.leg_R0_ankle" id="2593" localName="ankle" model="horse_guide" name="leg_R0_ankle" owners="horse_guide.leg_R0_knee,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="-1.55076175344" valueType="5" />
+      <parameter scriptName="posy" value="4.6579842224" valueType="5" />
+      <parameter scriptName="posz" value="-7.90442090207" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="180.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.leg_R0_knee" id="2580" localName="knee" model="horse_guide" name="leg_R0_knee" owners="horse_guide.leg_R0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="-1.55076175344" valueType="5" />
+      <parameter scriptName="posy" value="8.24793083969" valueType="5" />
+      <parameter scriptName="posz" value="-5.84615974016" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="180.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.leg_R0_meta" id="2606" localName="meta" model="horse_guide" name="leg_R0_meta" owners="horse_guide.leg_R0_ankle,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="-1.55076175344" valueType="5" />
+      <parameter scriptName="posy" value="1.38285958423" valueType="5" />
+      <parameter scriptName="posz" value="-7.87410096633" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="180.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.leg_R0_root" id="2565" localName="root" model="horse_guide" name="leg_R0_root" owners="horse_guide.spine_C0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="-1.55076175344" valueType="5" />
+      <parameter scriptName="posy" value="11.1662809685" valueType="5" />
+      <parameter scriptName="posz" value="-5.59086039583" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="180.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.leg_R0_eff" id="2619" localName="eff" model="horse_guide" name="leg_R0_eff" owners="horse_guide.leg_R0_meta,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="-1.55076175344" valueType="5" />
+      <parameter scriptName="posy" value="1.38285958423" valueType="5" />
+      <parameter scriptName="posz" value="-6.73512027766" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="180.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+  </objects>
+ </component>
+ <component name="foot_R0" parent="leg_R0.meta" root_size="0.3" type="foot_bk_01">
+  <settings>
+   <parameter scriptName="connector" value="leg_3jnt_01" valueType="8" />
+   <parameter scriptName="comp_side" value="R" valueType="8" />
+   <parameter scriptName="comp_type" value="foot_bk_01" valueType="8" />
+   <parameter scriptName="set_ctl_grp" value="False" valueType="11" />
+   <parameter scriptName="comp_name" value="foot" valueType="8" />
+   <parameter scriptName="ctl_grp" value="" valueType="8" />
+   <parameter scriptName="uiHost" value="uilegs_C0_icon" valueType="8" />
+   <parameter scriptName="comp_index" value="0" valueType="3" />
+   <parameter scriptName="roll" value="0" valueType="3" />
+  </settings>
+  <objects>
+   <x3dobject fullName="horse_guide.foot_R0_outpivot" id="2731" localName="outpivot" model="horse_guide" name="foot_R0_outpivot" owners="horse_guide.foot_R0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="-2.04873408125" valueType="5" />
+      <parameter scriptName="posy" value="6.03961325396e-14" valueType="5" />
+      <parameter scriptName="posz" value="-8.08971419351" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="180.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.foot_R0_0_loc" id="2681" localName="0_loc" model="horse_guide" name="foot_R0_0_loc" owners="horse_guide.foot_R0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="-1.55076175344" valueType="5" />
+      <parameter scriptName="posy" value="0.00488373458941" valueType="5" />
+      <parameter scriptName="posz" value="-6.76353733876" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="180.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.foot_R0_inpivot" id="2744" localName="inpivot" model="horse_guide" name="foot_R0_inpivot" owners="horse_guide.foot_R0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="-0.995286431061" valueType="5" />
+      <parameter scriptName="posy" value="6.03961325396e-14" valueType="5" />
+      <parameter scriptName="posz" value="-8.08971419351" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="180.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.foot_R0_root" id="2668" localName="root" model="horse_guide" name="foot_R0_root" owners="horse_guide.leg_R0_meta,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="-1.55076175344" valueType="5" />
+      <parameter scriptName="posy" value="1.38285958423" valueType="5" />
+      <parameter scriptName="posz" value="-7.87410096633" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="180.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+   <x3dobject fullName="horse_guide.foot_R0_heel" id="2718" localName="heel" model="horse_guide" name="foot_R0_heel" owners="horse_guide.foot_R0_root,Layers.Layer_Default" type="null">
+    <primitive />
+    <kinematics>
+     <global>
+      <parameter scriptName="posx" value="-1.55076175344" valueType="5" />
+      <parameter scriptName="posy" value="6.03961325396e-14" valueType="5" />
+      <parameter scriptName="posz" value="-8.08971419351" valueType="5" />
+      <parameter scriptName="rotx" value="0.0" valueType="5" />
+      <parameter scriptName="roty" value="180.0" valueType="5" />
+      <parameter scriptName="rotz" value="0.0" valueType="5" />
+      <parameter scriptName="sclx" value="1" valueType="5" />
+      <parameter scriptName="scly" value="1" valueType="5" />
+      <parameter scriptName="sclz" value="1" valueType="5" />
+     </global>
+    </kinematics>
+   </x3dobject>
+  </objects>
+ </component>
+</guide>

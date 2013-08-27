@@ -1,0 +1,328 @@
+<html>
+<body version="2">
+<script language="Python">
+
+'''
+
+    This file is part of GEAR.
+
+    GEAR is free software: you can redistribute it and/or modify
+    it under the terms of the GNU Lesser General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU Lesser General Public License for more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/lgpl.html>.
+
+    Author:     Jeremie Passerin      geerem@hotmail.com
+    Company:    Studio Nest (TM)
+    Date:       2010 / 11 / 15
+
+'''
+
+##########################################################
+# GLOBAL
+##########################################################
+import gear.xsi.synoptic as syn
+
+##########################################################
+# SELECTION
+##########################################################
+def arm_L0_fk0_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'arm_L0_fk0_ctl')
+def arm_L0_fk1_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'arm_L0_fk1_ctl')
+def arm_L0_fk2_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'arm_L0_fk2_ctl')
+def arm_L0_ik_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'arm_L0_ik_ctl')
+def arm_L0_ikcns_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'arm_L0_ikcns_ctl')
+def arm_L0_mid_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'arm_L0_mid_ctl')
+def arm_L0_upv_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'arm_L0_upv_ctl')
+def arm_R0_fk0_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'arm_R0_fk0_ctl')
+def arm_R0_fk1_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'arm_R0_fk1_ctl')
+def arm_R0_fk2_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'arm_R0_fk2_ctl')
+def arm_R0_ik_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'arm_R0_ik_ctl')
+def arm_R0_ikcns_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'arm_R0_ikcns_ctl')
+def arm_R0_mid_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'arm_R0_mid_ctl')
+def arm_R0_upv_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'arm_R0_upv_ctl')
+def body_C0_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'body_C0_ctl')
+def finger_L0_fk0_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'finger_L0_fk0_ctl')
+def finger_L0_fk1_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'finger_L0_fk1_ctl')
+def finger_L0_fk2_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'finger_L0_fk2_ctl')
+def finger_L1_fk0_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'finger_L1_fk0_ctl')
+def finger_L1_fk1_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'finger_L1_fk1_ctl')
+def finger_L1_fk2_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'finger_L1_fk2_ctl')
+def finger_L2_fk0_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'finger_L2_fk0_ctl')
+def finger_L2_fk1_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'finger_L2_fk1_ctl')
+def finger_L2_fk2_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'finger_L2_fk2_ctl')
+def finger_L3_fk0_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'finger_L3_fk0_ctl')
+def finger_L3_fk1_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'finger_L3_fk1_ctl')
+def finger_L3_fk2_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'finger_L3_fk2_ctl')
+def finger_R0_fk0_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'finger_R0_fk0_ctl')
+def finger_R0_fk1_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'finger_R0_fk1_ctl')
+def finger_R0_fk2_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'finger_R0_fk2_ctl')
+def finger_R1_fk0_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'finger_R1_fk0_ctl')
+def finger_R1_fk1_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'finger_R1_fk1_ctl')
+def finger_R1_fk2_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'finger_R1_fk2_ctl')
+def finger_R2_fk0_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'finger_R2_fk0_ctl')
+def finger_R2_fk1_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'finger_R2_fk1_ctl')
+def finger_R2_fk2_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'finger_R2_fk2_ctl')
+def finger_R3_fk0_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'finger_R3_fk0_ctl')
+def finger_R3_fk1_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'finger_R3_fk1_ctl')
+def finger_R3_fk2_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'finger_R3_fk2_ctl')
+def foot_L0_bk0_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'foot_L0_bk0_ctl')
+def foot_L0_bk1_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'foot_L0_bk1_ctl')
+def foot_L0_bk2_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'foot_L0_bk2_ctl')
+def foot_L0_bk3_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'foot_L0_bk3_ctl')
+def foot_L0_fk0_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'foot_L0_fk0_ctl')
+def foot_L0_fk1_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'foot_L0_fk1_ctl')
+def foot_L0_fk2_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'foot_L0_fk2_ctl')
+def foot_L0_heel_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'foot_L0_heel_ctl')
+def foot_L0_roll_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'foot_L0_roll_ctl')
+def foot_L0_tip_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'foot_L0_tip_ctl')
+def foot_R0_bk0_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'foot_R0_bk0_ctl')
+def foot_R0_bk1_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'foot_R0_bk1_ctl')
+def foot_R0_bk2_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'foot_R0_bk2_ctl')
+def foot_R0_bk3_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'foot_R0_bk3_ctl')
+def foot_R0_fk0_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'foot_R0_fk0_ctl')
+def foot_R0_fk1_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'foot_R0_fk1_ctl')
+def foot_R0_fk2_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'foot_R0_fk2_ctl')
+def foot_R0_heel_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'foot_R0_heel_ctl')
+def foot_R0_roll_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'foot_R0_roll_ctl')
+def foot_R0_tip_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'foot_R0_tip_ctl')
+def global_C0_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'global_C0_ctl')
+def leg_L0_fk0_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'leg_L0_fk0_ctl')
+def leg_L0_fk1_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'leg_L0_fk1_ctl')
+def leg_L0_fk2_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'leg_L0_fk2_ctl')
+def leg_L0_ik_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'leg_L0_ik_ctl')
+def leg_L0_ikcns_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'leg_L0_ikcns_ctl')
+def leg_L0_mid_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'leg_L0_mid_ctl')
+def leg_L0_upv_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'leg_L0_upv_ctl')
+def leg_R0_fk0_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'leg_R0_fk0_ctl')
+def leg_R0_fk1_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'leg_R0_fk1_ctl')
+def leg_R0_fk2_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'leg_R0_fk2_ctl')
+def leg_R0_ik_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'leg_R0_ik_ctl')
+def leg_R0_ikcns_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'leg_R0_ikcns_ctl')
+def leg_R0_mid_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'leg_R0_mid_ctl')
+def leg_R0_upv_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'leg_R0_upv_ctl')
+def local_C0_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'local_C0_ctl')
+def meta_L0_end_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'meta_L0_end_ctl')
+def meta_R0_end_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'meta_R0_end_ctl')
+def neck_C0_fk0_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'neck_C0_fk0_ctl')
+def neck_C0_fk1_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'neck_C0_fk1_ctl')
+def neck_C0_head_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'neck_C0_head_ctl')
+def neck_C0_ik_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'neck_C0_ik_ctl')
+def shoulder_L0_fk0_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'shoulder_L0_fk0_ctl')
+def shoulder_R0_fk0_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'shoulder_R0_fk0_ctl')
+def spine_C0_fk0_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'spine_C0_fk0_ctl')
+def spine_C0_fk1_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'spine_C0_fk1_ctl')
+def spine_C0_fk2_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'spine_C0_fk2_ctl')
+def spine_C0_ik0_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'spine_C0_ik0_ctl')
+def spine_C0_ik1_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'spine_C0_ik1_ctl')
+def spine_C0_tan0_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'spine_C0_tan0_ctl')
+def spine_C0_tan1_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'spine_C0_tan1_ctl')
+def thumb_L0_fk0_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'thumb_L0_fk0_ctl')
+def thumb_L0_fk1_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'thumb_L0_fk1_ctl')
+def thumb_L0_fk2_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'thumb_L0_fk2_ctl')
+def thumb_R0_fk0_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'thumb_R0_fk0_ctl')
+def thumb_R0_fk1_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'thumb_R0_fk1_ctl')
+def thumb_R0_fk2_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'thumb_R0_fk2_ctl')
+def toe_L0_fk0_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'toe_L0_fk0_ctl')
+def toe_L1_fk0_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'toe_L1_fk0_ctl')
+def toe_L2_fk0_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'toe_L2_fk0_ctl')
+def toe_L3_fk0_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'toe_L3_fk0_ctl')
+def toe_L4_fk0_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'toe_L4_fk0_ctl')
+def toe_R0_fk0_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'toe_R0_fk0_ctl')
+def toe_R1_fk0_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'toe_R1_fk0_ctl')
+def toe_R2_fk0_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'toe_R2_fk0_ctl')
+def toe_R3_fk0_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'toe_R3_fk0_ctl')
+def toe_R4_fk0_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'toe_R4_fk0_ctl')
+def uiarms_C0_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'uiarms_C0_ctl')
+def uiface_C0_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'uiface_C0_ctl')
+def uilegs_C0_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'uilegs_C0_ctl')
+def uispine_C0_ctl(in_obj, in_mousebutton, in_keymodifier): syn.select(in_mousebutton, in_keymodifier, 'uispine_C0_ctl')
+
+##########################################################
+# SELECT
+##########################################################
+# ========================================================
+def selectAll(in_obj, in_mousebutton, in_keymodifier): syn.selectAll(in_mousebutton, in_keymodifier)
+
+# ========================================================
+def selectA(in_obj, in_mousebutton, in_keymodifier): syn.quickSel(in_mousebutton, in_keymodifier, "A")
+def selectB(in_obj, in_mousebutton, in_keymodifier): syn.quickSel(in_mousebutton, in_keymodifier, "B")
+def selectC(in_obj, in_mousebutton, in_keymodifier): syn.quickSel(in_mousebutton, in_keymodifier, "C")
+def selectD(in_obj, in_mousebutton, in_keymodifier): syn.quickSel(in_mousebutton, in_keymodifier, "D")
+def selectE(in_obj, in_mousebutton, in_keymodifier): syn.quickSel(in_mousebutton, in_keymodifier, "E")
+def selectF(in_obj, in_mousebutton, in_keymodifier): syn.quickSel(in_mousebutton, in_keymodifier, "F")
+
+# ========================================================
+def resetAll(in_obj, in_mousebutton, in_keymodifier): syn.resetAll(in_mousebutton, in_keymodifier)
+def resetSel(in_obj, in_mousebutton, in_keymodifier): syn.resetSel(in_mousebutton, in_keymodifier)
+
+##########################################################
+# KEYING
+##########################################################
+def keySel(in_obj, in_mousebutton, in_keymodifier): syn.keySel(in_mousebutton, in_keymodifier)
+def keyAll(in_obj, in_mousebutton, in_keymodifier): syn.keyAll(in_mousebutton, in_keymodifier)
+def mirrorSel(in_obj, in_mousebutton, in_keymodifier): syn.mirrorSel(in_mousebutton, in_keymodifier)
+
+##########################################################
+# DISPLAY
+##########################################################
+# ========================================================
+def controlers_01_grp(in_obj, in_mousebutton, in_keymodifier): syn.toggleGroupVisibility(in_mousebutton, in_keymodifier, "controlers_01_grp")
+def controlers_slider_grp(in_obj, in_mousebutton, in_keymodifier): syn.toggleGroupVisibility(in_mousebutton, in_keymodifier, "controlers_slider_grp")
+def controlers_facial_grp(in_obj, in_mousebutton, in_keymodifier): syn.toggleGroupVisibility(in_mousebutton, in_keymodifier, "controlers_facial_grp")
+
+# ========================================================
+def xRay(in_obj, in_mousebutton, in_keymodifier): syn.toggleDisplayParameter(in_mousebutton, in_keymodifier, "XRayshaded")
+
+# ========================================================
+def uiface(in_obj, in_mousebutton, in_keymodifier): syn.selectOrInspect(in_mousebutton, in_keymodifier, "uiface_C0_ctl", "anim_prop", 400, 400)
+def uispine(in_obj, in_mousebutton, in_keymodifier): syn.selectOrInspect(in_mousebutton, in_keymodifier, "uispine_C0_ctl", "anim_prop", 400, 400)
+def uiarms(in_obj, in_mousebutton, in_keymodifier): syn.selectOrInspect(in_mousebutton, in_keymodifier, "uiarms_C0_ctl", "anim_prop", 600, 450)
+def uilegs(in_obj, in_mousebutton, in_keymodifier): syn.selectOrInspect(in_mousebutton, in_keymodifier, "uilegs_C0_ctl", "anim_prop", 600, 450)
+def uiglobal(in_obj, in_mousebutton, in_keymodifier): syn.selectOrInspect(in_mousebutton, in_keymodifier, "global_C0_ctl", "anim_prop", 400, 150)
+    
+##########################################################
+# SMOOTH
+##########################################################
+def smooth_0(in_obj, in_mousebutton, in_keymodifier): syn.smooth(in_mousebutton, in_keymodifier, 0)
+def smooth_1(in_obj, in_mousebutton, in_keymodifier): syn.smooth(in_mousebutton, in_keymodifier, 1)
+def smooth_2(in_obj, in_mousebutton, in_keymodifier): syn.smooth(in_mousebutton, in_keymodifier, 2)
+
+
+
+
+
+
+</SCRIPT>
+
+<map name="SynopticMap">
+<area shape="rect" coords="3,22,83,49" title="" NOHREF onClick="controlers_01_grp">
+<area shape="rect" coords="4,50,83,72" title="" NOHREF onClick="controlers_slider_grp">
+<area shape="rect" coords="4,72,82,99" title="" NOHREF onClick="controlers_facial_grp">
+<area shape="rect" coords="3,98,82,123" title="" NOHREF onClick="xRay">
+<area shape="rect" coords="5,123,30,148" title="" NOHREF onClick="smooth_0">
+<area shape="rect" coords="31,123,54,147" title="" NOHREF onClick="smooth_1">
+<area shape="rect" coords="54,124,80,148" title="" NOHREF onClick="smooth_2">
+<area shape="rect" coords="3,523,82,546" title="" NOHREF onClick="mirrorSel">
+<area shape="rect" coords="3,498,81,521" title="" NOHREF onClick="keySel">
+<area shape="rect" coords="3,474,85,498" title="" NOHREF onClick="keyAll">
+<area shape="rect" coords="1,450,83,474" title="" NOHREF onClick="resetSel">
+<area shape="rect" coords="2,424,82,448" title="" NOHREF onClick="resetAll">
+<area shape="rect" coords="2,399,83,425" title="" NOHREF onClick="selectAll">
+<area shape="rect" coords="6,349,30,373" title="" NOHREF onClick="selectA">
+<area shape="rect" coords="31,347,54,373" title="" NOHREF onClick="selectB">
+<area shape="rect" coords="56,349,79,373" title="" NOHREF onClick="selectC">
+<area shape="rect" coords="7,373,32,397" title="" NOHREF onClick="selectD">
+<area shape="rect" coords="31,374,53,397" title="" NOHREF onClick="selectE">
+<area shape="rect" coords="54,374,79,397" title="" NOHREF onClick="selectF">
+<area shape="circle" coords="38,178,13" title="" NOHREF onClick="uiface">
+<area shape="poly" coords="7,190,7,200,38,206,66,199,71,191" title="" NOHREF onClick="uiarms">
+<area shape="poly" coords="25,223,48,225,54,205,24,207" title="" NOHREF onClick="uispine">
+<area shape="poly" coords="14,261,59,261,51,226,25,226" title="" NOHREF onClick="uilegs">
+<area shape="rect" coords="259,17,290,49" title="" NOHREF onClick="local_C0_ctl">
+<area shape="rect" coords="223,15,259,49" title="" NOHREF onClick="global_C0_ctl">
+<area shape="rect" coords="158,84,213,98" title="" NOHREF onClick="neck_C0_fk0_ctl">
+<area shape="rect" coords="152,55,217,65" title="" NOHREF onClick="neck_C0_ik_ctl">
+<area shape="rect" coords="271,322,280,338" title="" NOHREF onClick="finger_L2_fk1_ctl">
+<area shape="rect" coords="257,322,267,338" title="" NOHREF onClick="finger_L1_fk1_ctl">
+<area shape="rect" coords="101,325,110,338" title="" NOHREF onClick="finger_R1_fk1_ctl">
+<area shape="rect" coords="87,322,97,335" title="" NOHREF onClick="finger_R2_fk1_ctl">
+<area shape="rect" coords="75,287,84,303" title="" NOHREF onClick="meta_R0_end_ctl">
+<area shape="rect" coords="284,287,294,303" title="" NOHREF onClick="meta_L0_end_ctl">
+<area shape="rect" coords="100,173,127,197" title="" NOHREF onClick="arm_R0_mid_ctl">
+<area shape="rect" coords="218,93,256,110" title="" NOHREF onClick="shoulder_L0_fk0_ctl">
+<area shape="rect" coords="117,92,153,110" title="" NOHREF onClick="shoulder_R0_fk0_ctl">
+<area shape="rect" coords="128,301,140,317" title="" NOHREF onClick="thumb_R0_fk1_ctl">
+<area shape="rect" coords="230,300,239,317" title="" NOHREF onClick="thumb_L0_fk1_ctl">
+<area shape="rect" coords="257,341,267,357" title="" NOHREF onClick="finger_L1_fk2_ctl">
+<area shape="rect" coords="101,341,111,357" title="" NOHREF onClick="finger_R1_fk2_ctl">
+<area shape="rect" coords="271,339,281,354" title="" NOHREF onClick="finger_L2_fk2_ctl">
+<area shape="rect" coords="88,339,97,354" title="" NOHREF onClick="finger_R2_fk2_ctl">
+<area shape="rect" coords="244,338,254,353" title="" NOHREF onClick="finger_L0_fk2_ctl">
+<area shape="rect" coords="114,338,124,353" title="" NOHREF onClick="finger_R0_fk2_ctl">
+<area shape="rect" coords="284,336,294,348" title="" NOHREF onClick="finger_L3_fk2_ctl">
+<area shape="rect" coords="75,336,84,348" title="" NOHREF onClick="finger_R3_fk2_ctl">
+<area shape="rect" coords="244,322,254,336" title="" NOHREF onClick="finger_L0_fk1_ctl">
+<area shape="rect" coords="114,322,124,336" title="" NOHREF onClick="finger_R0_fk1_ctl">
+<area shape="rect" coords="230,318,240,333" title="" NOHREF onClick="thumb_L0_fk2_ctl">
+<area shape="rect" coords="129,318,138,333" title="" NOHREF onClick="thumb_R0_fk2_ctl">
+<area shape="rect" coords="284,306,294,320" title="" NOHREF onClick="finger_L3_fk0_ctl">
+<area shape="rect" coords="271,306,281,321" title="" NOHREF onClick="finger_L2_fk0_ctl">
+<area shape="rect" coords="257,306,267,322" title="" NOHREF onClick="finger_L1_fk0_ctl">
+<area shape="rect" coords="244,306,254,320" title="" NOHREF onClick="finger_L0_fk0_ctl">
+<area shape="rect" coords="114,306,124,320" title="" NOHREF onClick="finger_R0_fk0_ctl">
+<area shape="rect" coords="101,306,111,322" title="" NOHREF onClick="finger_R1_fk0_ctl">
+<area shape="rect" coords="88,306,97,321" title="" NOHREF onClick="finger_R2_fk0_ctl">
+<area shape="rect" coords="75,305,84,320" title="" NOHREF onClick="finger_R3_fk0_ctl">
+<area shape="rect" coords="230,285,240,300" title="" NOHREF onClick="thumb_L0_fk0_ctl">
+<area shape="rect" coords="129,285,138,300" title="" NOHREF onClick="thumb_R0_fk0_ctl">
+<area shape="rect" coords="249,195,268,253" title="" NOHREF onClick="arm_L0_fk1_ctl">
+<area shape="rect" coords="99,195,119,251" title="" NOHREF onClick="arm_R0_fk1_ctl">
+<area shape="rect" coords="244,173,267,194" title="" NOHREF onClick="arm_L0_mid_ctl">
+<area shape="rect" coords="243,254,279,275" title="" NOHREF onClick="arm_L0_ik_ctl">
+<area shape="rect" coords="91,253,124,275" title="" NOHREF onClick="arm_R0_ik_ctl">
+<area shape="rect" coords="253,509,268,522" title="" NOHREF onClick="foot_L0_bk1_ctl">
+<area shape="rect" coords="104,506,117,521" title="" NOHREF onClick="foot_R0_bk1_ctl">
+<area shape="rect" coords="82,522,95,535" title="" NOHREF onClick="foot_R0_bk0_ctl">
+<area shape="rect" coords="241,523,273,536" title="" NOHREF onClick="foot_L0_fk2_ctl">
+<area shape="rect" coords="96,523,125,534" title="" NOHREF onClick="foot_R0_fk2_ctl">
+<area shape="rect" coords="274,521,291,536" title="" NOHREF onClick="foot_L0_bk0_ctl">
+<area shape="rect" coords="221,509,251,521" title="" NOHREF onClick="foot_L0_fk1_ctl">
+<area shape="rect" coords="119,509,147,521" title="" NOHREF onClick="foot_R0_fk1_ctl">
+<area shape="rect" coords="200,496,230,507" title="" NOHREF onClick="foot_L0_fk0_ctl">
+<area shape="rect" coords="138,496,168,507" title="" NOHREF onClick="foot_R0_fk0_ctl">
+<area shape="rect" coords="200,358,229,384" title="" NOHREF onClick="leg_L0_mid_ctl">
+<area shape="rect" coords="141,355,169,382" title="" NOHREF onClick="leg_R0_mid_ctl">
+<area shape="rect" coords="200,381,224,474" title="" NOHREF onClick="leg_L0_fk1_ctl">
+<area shape="rect" coords="144,383,167,474" title="" NOHREF onClick="leg_R0_fk1_ctl">
+<area shape="rect" coords="235,364,250,380" title="" NOHREF onClick="leg_L0_upv_ctl">
+<area shape="rect" coords="120,362,135,378" title="" NOHREF onClick="leg_R0_upv_ctl">
+<area shape="rect" coords="197,475,228,493" title="" NOHREF onClick="leg_L0_ik_ctl">
+<area shape="rect" coords="140,475,172,493" title="" NOHREF onClick="leg_R0_ik_ctl">
+<area shape="rect" coords="243,277,277,287" title="" NOHREF onClick="arm_L0_fk2_ctl">
+<area shape="rect" coords="91,275,126,288" title="" NOHREF onClick="arm_R0_fk2_ctl">
+<area shape="rect" coords="204,245,227,356" title="" NOHREF onClick="leg_L0_fk0_ctl">
+<area shape="rect" coords="146,245,166,356" title="" NOHREF onClick="leg_R0_fk0_ctl">
+<area shape="rect" coords="123,224,248,244" title="" NOHREF onClick="body_C0_ctl">
+<area shape="rect" coords="142,180,229,195" title="" NOHREF onClick="spine_C0_fk0_ctl">
+<area shape="rect" coords="142,159,227,178" title="" NOHREF onClick="spine_C0_fk1_ctl">
+<area shape="rect" coords="275,173,290,189" title="" NOHREF onClick="arm_L0_upv_ctl">
+<area shape="rect" coords="78,173,93,189" title="" NOHREF onClick="arm_R0_upv_ctl">
+<area shape="rect" coords="141,142,227,156" title="" NOHREF onClick="spine_C0_fk2_ctl">
+<area shape="rect" coords="243,114,267,173" title="" NOHREF onClick="arm_L0_fk0_ctl">
+<area shape="rect" coords="105,114,125,173" title="" NOHREF onClick="arm_R0_fk0_ctl">
+<area shape="rect" coords="125,495,138,509" title="" NOHREF onClick="foot_R0_bk2_ctl">
+<area shape="rect" coords="232,497,244,508" title="" NOHREF onClick="foot_L0_bk2_ctl">
+<area shape="rect" coords="284,319,295,336" title="" NOHREF onClick="finger_L3_fk1_ctl">
+<area shape="rect" coords="73,322,87,334" title="" NOHREF onClick="finger_R3_fk1_ctl">
+<area shape="rect" coords="160,5,211,55" title="" NOHREF onClick="neck_C0_head_ctl">
+<area shape="rect" coords="158,66,214,80" title="" NOHREF onClick="neck_C0_fk1_ctl">
+<area shape="rect" coords="138,113,233,128" title="" NOHREF onClick="spine_C0_ik1_ctl">
+<area shape="rect" coords="137,210,234,224" title="" NOHREF onClick="spine_C0_ik0_ctl">
+<area shape="circle" coords="184,134,9" title="" NOHREF onClick="spine_C0_tan1_ctl">
+<area shape="circle" coords="184,202,8" title="" NOHREF onClick="spine_C0_tan0_ctl">
+<area shape="rect" coords="71,252,89,273" title="" NOHREF onClick="arm_R0_ikcns_ctl">
+<area shape="rect" coords="281,253,298,272" title="" NOHREF onClick="arm_L0_ikcns_ctl">
+<area shape="rect" coords="231,476,250,495" title="" NOHREF onClick="leg_L0_ikcns_ctl">
+<area shape="rect" coords="118,475,139,494" title="" NOHREF onClick="leg_R0_ikcns_ctl">
+<area shape="rect" coords="186,495,201,510" title="" NOHREF onClick="foot_L0_bk3_ctl">
+<area shape="rect" coords="170,494,185,510" title="" NOHREF onClick="foot_R0_bk3_ctl">
+<area shape="rect" coords="13,263,66,276" title="" NOHREF onClick="uiglobal">
+<area shape="circle" coords="266,486,15" title="" NOHREF onClick="foot_L0_roll_ctl">
+<area shape="circle" coords="103,484,16" title="" NOHREF onClick="foot_R0_roll_ctl">
+<area shape="circle" coords="140,534,11" title="" NOHREF onClick="foot_R0_tip_ctl">
+<area shape="circle" coords="228,535,13" title="" NOHREF onClick="foot_L0_tip_ctl">
+<area shape="circle" coords="195,530,10" title="" NOHREF onClick="foot_L0_heel_ctl">
+<area shape="circle" coords="176,530,10" title="" NOHREF onClick="foot_R0_heel_ctl">
+</map>
+
+<img src="biped_body.jpg" usemap="#SynopticMap">
+
+</body>
+</html>

@@ -1,0 +1,217 @@
+'''
+
+    This file is part of GEAR.
+
+    GEAR is free software: you can redistribute it and/or modify
+    it under the terms of the GNU Lesser General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU Lesser General Public License for more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/lgpl.html>.
+
+    Author:     Jeremie Passerin      geerem@hotmail.com
+    Url:        http://gear.jeremiepasserin.com
+    Date:       2010 / 11 / 15
+
+'''
+
+## @package gear.xsi.rig.component.mouth_01
+# @author Jeremie Passerin
+#
+
+##########################################################
+# GLOBAL
+##########################################################
+import os
+
+import gear.lists as lis
+
+from gear.xsi import xsi, c, dynDispatch, XSIFactory, XSIMath
+
+from gear.xsi.rig.component import MainComponent
+
+import gear.xsi.ppg as ppg
+import gear.xsi.parameter as par
+import gear.xsi.primitive as pri
+import gear.xsi.applyop as aop
+import gear.xsi.transform as tra
+import gear.xsi.curve as cur
+import gear.xsi.vector as vec
+
+##########################################################
+# COMPONENT
+##########################################################
+## The main component class.
+class Component(MainComponent):
+
+    # =====================================================
+    # OBJECTS
+    # =====================================================
+    ## Add all the objects needed to create the component.
+    # @param self
+    def addObjects(self):
+    
+        self.ctl = []
+        
+        self.crv = []
+        self.ctr = []
+        self.off = []
+        self.cns_crv = []
+        self.loc = []
+    
+        for i, name in enumerate(["root", "mid_loc", "end_loc"]):
+        
+            # Controlers ----------------------------------
+            t = tra.getTransformFromPosition(self.guide.pos[name])
+            ctl = self.addCtl(self.root, "%s_ctl"%i, t, self.color_ik, "sphere", w=self.size*.1)
+            xsi.SetNeutralPose(ctl)
+
+            self.ctl.append(ctl)
+            
+            # Original Curve ------------------------------
+            crv = self.guide.prim["%s_crv"%i].create(self.root, self.getName("%s_crv"%i), None)
+            xsi.SetNeutralPose(crv)
+            
+            self.crv.append(crv)
+            self.addToGroup(crv, "hidden")
+
+            # Constrained Curve ---------------------------
+            # Centers
+            centers = []
+            for j in range(crv.ActivePrimitive.Geometry.Curves(0).ControlPoints.Count):
+                v = crv.ActivePrimitive.Geometry.Curves(0).ControlPoints(j).Position
+                v = crv.ActivePrimitive.Geometry.GetClosestCurvePosition2(v)[3]
+                v = XSIMath.MapObjectPositionToWorldSpace(crv.Kinematics.Global.Transform, v)
+
+                ctr = pri.addNullFromPos(crv, self.getName("%s_%s_ctr"%(i,j)), v, self.size*.025)
+
+                if j == 2:
+                   off = pri.addNullFromPos(ctr, self.getName("%s_off")%i, v, self.size*.05)
+
+                centers.append(ctr)
+
+            self.ctr.append(centers)
+            self.off.append(off)
+            self.addToGroup(centers, "hidden")
+            self.addToGroup(off, "hidden")
+
+            # Cns Curve
+            cns_crv = cur.addCnsCurve(crv, self.getName("%s_cns_crv"%i), [centers[0], centers[1], off, centers[3], centers[4]], False, 3)
+            
+            self.cns_crv.append(cns_crv)
+            self.addToGroup(cns_crv, "hidden")
+            
+            # Shadows -------------------------------------
+            # locs = []
+            # for j in range(5):
+                # loc = pri.addNull(cns_crv, self.getName("%s_%s_loc"%(i,j)), XSIMath.CreateTransform(), self.size*.01)
+                # self.addShadow(loc, "%s_%s"%(i,j))
+                # locs.append(loc)
+            
+            # self.loc.append(locs)
+            # self.addToGroup(locs, "hidden")
+
+            
+        # Shadow Curve ------------------------------------
+        positions = [off.Kinematics.Global.Transform.Translation for off in self.off]
+        positions.insert(1, vec.linearlyInterpolate(positions[0], positions[1], .1))
+        positions.insert(-1, vec.linearlyInterpolate(positions[-2], positions[-1], .9))
+        
+        self.shd_crv = cur.addCurveFromPos(self.root, self.getName("shd_crv"), positions, False, 3)
+        
+
+
+    # =====================================================
+    # PROPERTY
+    # =====================================================
+    ## Add parameters to the anim and setup properties to control the component.
+    # @param self
+    def addParameters(self):
+        return
+
+    ## Define the layout of the anim and setup properties.
+    # @param self
+    def addLayout(self):
+        return
+
+    ## Define the logic of the anim and setup properties.
+    # @param self
+    def addLogic(self):
+        return
+
+    # =====================================================
+    # OPERATORS
+    # =====================================================
+    ## Apply operators, constraints, expressions to the hierarchy.\n
+    # In order to keep the code clean and easier to debug,
+    # we shouldn't create any new object in this method.
+    # @param self
+    def addOperators(self):
+    
+        # Constrain Shadow Curve --------------------------
+        aop.clsCtrOp(self.shd_crv, self.off[0], [0,1])
+        aop.clsCtrOp(self.shd_crv, self.off[1], [2])
+        aop.clsCtrOp(self.shd_crv, self.off[2], [3,4])
+        
+        # Controlers Limits -------------------------------
+        pos_0 = self.crv[0].ActivePrimitive.Geometry.Curves(0).EvaluatePosition(0)[0]
+        pos_1 = self.crv[0].ActivePrimitive.Geometry.Curves(0).EvaluatePosition(4)[0]
+        pos_0 = XSIMath.MapObjectPositionToWorldSpace(self.crv[0].Kinematics.Global.Transform, pos_0)
+        pos_1 = XSIMath.MapObjectPositionToWorldSpace(self.crv[0].Kinematics.Global.Transform, pos_1)
+
+        lim_min = pos_0.Y - self.ctl[0].Kinematics.Global.Transform.Translation.Y
+        lim_max = pos_1.Y - self.ctl[0].Kinematics.Global.Transform.Translation.Y
+        
+        # Loop --------------------------------------------
+        for ctl, crv, centers, off, cns_crv in zip(self.ctl, self.crv, self.ctr, self.off, self.cns_crv):
+
+            # Shortcuts -----------------------------------
+            crv_geo = crv.ActivePrimitive.Geometry
+            crv_0 = crv_geo.Curves(0)
+            crv_tra = crv.Kinematics.Global.Transform
+
+            # Set Limits ----------------------------------
+            ctl.Kinematics.Local.Parameters("posyminactive").Value = True
+            ctl.Kinematics.Local.Parameters("posymaxactive").Value = True
+            ctl.Kinematics.Local.Parameters("posyminlimit").Value = lim_min
+            ctl.Kinematics.Local.Parameters("posymaxlimit").Value = lim_max
+            
+            # Path Constraint -----------------------------
+            constraints = []
+            percentages = []
+            for ctr in centers[1:-1]:
+                v = XSIMath.MapWorldPositionToObjectSpace(crv_tra, ctr.Kinematics.Global.Transform.Translation)
+                a = crv_geo.GetClosestCurvePosition2(v)
+                perc = crv_0.GetPercentageFromU(a[2])
+                percentages.append(perc)
+
+                cns = aop.pathCns(ctr, crv, 0, perc, True, None, False)
+                cns.Parameters("dirx").Value = 0
+                cns.Parameters("diry").Value = 1
+                cns.Parameters("dirz").Value = 0
+                constraints.append(cns)
+
+            pos_min = "max(0,%s/%s)*%s"%(ctl.Kinematics.Local.Parameters("posy").FullName,lim_min,percentages[1])
+            pos_max = "max(0,%s/%s)*%s"%(ctl.Kinematics.Local.Parameters("posy").FullName,lim_max,100-percentages[1])
+            par.addExpression(constraints[1].Parameters("perc"), "%s - %s + %s"%(percentages[1],pos_min,pos_max))
+            cns_perc = constraints[1].Parameters("perc").FullName
+            par.addExpression(constraints[0].Parameters("perc"), cns_perc + " * " + str(percentages[0]/percentages[1]) )
+            p2 = ((percentages[2]-percentages[1]) * (100/percentages[1]))/100
+            par.addExpression(constraints[2].Parameters("perc"), cns_perc + " + (100 - " + cns_perc + ") * " + str(p2) )
+
+            for s in "xz":
+                par.addExpression(off.Kinematics.Local.Parameters("pos%s"%s), ctl.Kinematics.Local.Parameters("pos%s"%s).FullName)
+
+            # Shadows -------------------------------------
+            # for i, loc in enumerate(locs):
+            
+                # u = (i+1.0)/6.0
+                # cns = aop.pathCns(loc, cns_crv, 1, u, True, None, False)
+                
+            
