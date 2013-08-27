@@ -6,7 +6,7 @@ GEAR_mc is a fork of Jeremie Passerin's GEAR project.
 IMPORTANT LINKS:
 ----------------
 
-The Master: http://www.jeremiepasserin.com/blog/
+The Master: http://www.jeremiepasserin.com/blog/, https://github.com/jpasserin
 
 The Padawan: http://www.miqueltd.com/
 
