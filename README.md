@@ -20,7 +20,7 @@ WHAT'S THE NEW (from the original GEAR):
 
 -New Menu re-arrange  
 -New Facial components   
--New options for icon creator 
+-New options for icon creator    
 -Selection sets and poseLib not part of Gear  
 -poseLib should work now in Linux (but not tested)  
 -Zipper tool for curves  
