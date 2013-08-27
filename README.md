@@ -1,7 +1,16 @@
 GEAR_mc 
 =======
 GEAR_mc is a fork of Jeremie Passerin's GEAR project.
- 
+
+GEAR is an open source project to provide a complete and production quality toolset 
+for rigging and animation inside Autodesk Softimage. It includes a lot of things to 
+ease the rigging and animation workflows.
+
+Anyone should be able to build custom rigs using GEAR. It has been designed to be 
+flexible and relatively easy to use. Even non-riggers can create advanced rigs and 
+animate them easily, but the system is also open to further expansion so TDs can create 
+their own "components" and use them inside of the GEAR Rigging System. Furthermore, everything 
+is accessible through scripting with a complete API to automate as much as possible.
 
 IMPORTANT LINKS:
 ----------------
