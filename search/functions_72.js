@@ -5,7 +5,7 @@ var searchData=
   ['reloadmodule',['reloadModule',['../namespacegear.html#a7c7c531d331f94802ff3f2478f7a332a',1,'gear']]],
   ['removeenvdeformer',['removeEnvDeformer',['../namespacegear_1_1xsi_1_1envelope.html#ab5fee3ff4b08f5973207e13676a17101',1,'gear::xsi::envelope']]],
   ['removeinvalidcharacter',['removeInvalidCharacter',['../namespacegear_1_1string.html#ae38563ceb52492f0cc9f0e73158f8781',1,'gear::string']]],
-  ['rename',['rename',['../classgear_1_1xsi_1_1rig_1_1component_1_1guide_1_1_component_guide.html#ae2b52c025adc86ca9bf45ad3ae5d8dbc',1,'gear.xsi.rig.component.guide.ComponentGuide.rename()'],['../namespacegear__renamer.html#a1ea937016da867bf3bbab648343e1db0',1,'gear_renamer.rename()']]],
+  ['rename',['rename',['../classgear_1_1xsi_1_1rig_1_1component_1_1guide_1_1_component_guide.html#ae2b52c025adc86ca9bf45ad3ae5d8dbc',1,'gear::xsi::rig::component::guide::ComponentGuide']]],
   ['replacedeformerinenvelope',['replaceDeformerInEnvelope',['../namespacegear_1_1xsi_1_1envelope.html#a5237e9ae631cae53d16444d098c3fcfb',1,'gear::xsi::envelope']]],
   ['replacesharpwithpadding',['replaceSharpWithPadding',['../namespacegear_1_1string.html#a5a2d16340af1fd629e6134dc6e560ec8',1,'gear::string']]],
   ['reset',['reset',['../classgear_1_1xsi_1_1uitoolkit_1_1_progress_log.html#acc41632f4a6bb18fef159897725610f2',1,'gear::xsi::uitoolkit::ProgressLog']]],
