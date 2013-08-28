@@ -39,9 +39,13 @@ WHAT'S THE NEW (from the original GEAR):
 -New commands for inspect Guides PPG and solvers options  
 -Command for merge symmetry mapping templates.  
 
-Video tutorials will be added soon :)
+Video tutorials (Provided by TD Survival ;)
 ------
-soon
+001 - installation https://vimeo.com/73286635  
+002 - icons https://vimeo.com/73286662  
+003 - zipper https://vimeo.com/73304786  
+004 - wireframe colorizer https://vimeo.com/73304787  
+005 - solvers https://vimeo.com/73304788  
 
 Thanks
 ----
