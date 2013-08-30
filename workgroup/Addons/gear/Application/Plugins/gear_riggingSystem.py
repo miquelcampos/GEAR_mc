@@ -145,10 +145,9 @@ def gear_GuideToolsUI_Define(in_ctxt):
 
     # Main Tab --------------------------------------------
     prop.AddParameter3("componentList", c.siString, "", None, None, False, False)
-    prop.AddParameter3("componentInfos", c.siString, "", None, None, False, False)
+    prop.AddParameter3("componentInfos", c.siString, "", None, None, False, True)
     prop.AddParameter3("templateList", c.siString, "", None, None, False, False)
-    iProp = prop.AddParameter3("templateInfos", c.siString, "", None, None, False, False)
-    iProp.ReadOnly = True
+    prop.AddParameter3("templateInfos", c.siString, "", None, None, False, True)
 
 # Define Layout ==========================================
 def gear_GuideToolsUI_OnInit():
@@ -234,7 +233,7 @@ def gear_GuideToolsUI_OnInit():
 
     layout.EndRow()
 
-    item = layout.AddString("templateInfos", "", True, 110)
+    item = layout.AddString("templateInfos", "", True, 210)
     item.SetAttribute(c.siUINoLabel, True)
 
     layout.EndGroup()

@@ -158,10 +158,11 @@ def GEAR_mc_Init(ctxt):
     if plu.pluginExists("gear_riggingSystem"):
         character_menu = dynDispatch(menu.AddItem("Guides ", c.siMenuItemSubmenu))
 
+        character_menu.AddCommandItem("&Guide Tools", "gear_GuideTools")        
+        character_menu.AddSeparatorItem()
         character_menu.AddCommandItem("&Build Rig From Selection", "gear_BuildFromSelection")
         character_menu.AddCommandItem("&Build Rig From File", "gear_BuildFromFile")
         character_menu.AddSeparatorItem()
-        character_menu.AddCommandItem("&Guide Tools", "gear_GuideTools")
         character_menu.AddCommandItem("&Update Guide", "gear_UpdateGuide")
         character_menu.AddSeparatorItem()
         character_menu.AddCommandItem("&Import Guide", "gear_ImportGuide")
