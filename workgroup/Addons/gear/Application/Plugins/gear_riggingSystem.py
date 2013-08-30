@@ -224,6 +224,8 @@ def gear_GuideToolsUI_OnInit():
     layout.AddGroup()
     item = layout.AddButton("import", "Import")
     item.SetAttribute(c.siUICX , 90)
+    item = layout.AddButton("importFrom", "Import From")
+    item.SetAttribute(c.siUICX , 90)
     layout.AddSpacer()
     layout.AddSpacer()
     item = layout.AddButton("export", "Export")
@@ -430,29 +432,13 @@ def gear_GuideToolsUI_import_OnClicked():
 
         xsi.DeleteObj(model)
 
+def gear_GuideToolsUI_importFrom_OnClicked():
+    xsi.gear_ImportGuide()
+
 ## Export template
+
 def gear_GuideToolsUI_export_OnClicked():
-
-    if not xsi.Selection.Count:
-        xsi.LogMessage("Select an object from the guide to export", c.siError)
-        return
-
-    if xsi.Selection(0).Type == "#model":
-        model = xsi.Selection(0)
-    else:
-        model = xsi.Selection(0).Model
-
-    options = model.Properties("options")
-    if not options:
-        gear.log("Invalid selection", gear.sev_error)
-        return
-
-    path = uit.fileBrowser("Export Guide", TEMPLATE_PATH, model.Name, ["xml"], True)
-    if not path:
-        return
-
-    rg = RigGuide()
-    rg.exportToXml(xsi.Selection(0), path)
+    xsi.gear_ExportGuide(TEMPLATE_PATH)
 
     gear_GuideToolsUI_OnInit()
 
@@ -472,7 +458,16 @@ def gear_ImportGuide_Execute():
 
 # ========================================================
 ## Export Guide
-def gear_ExportGuide_Execute():
+def gear_ExportGuide_Init(in_ctxt):
+    oCmd = in_ctxt.Source
+    oCmd.Description = ""
+    oCmd.ReturnValue = True
+
+    oArgs = oCmd.Arguments
+    oArgs.Add("templatePath",c.siArgumentInput)
+    return True
+
+def gear_ExportGuide_Execute(templatePath=False):
 
     if not xsi.Selection.Count:
         xsi.LogMessage("Select an object from the guide to export", c.siError)
@@ -487,8 +482,9 @@ def gear_ExportGuide_Execute():
     if not options:
         gear.log("Invalid selection", gear.sev_error)
         return
-
-    path = uit.fileBrowser("Export Guide", xsi.ActiveProject2.OriginPath, model.Name, ["xml"], True)
+    if not templatePath:
+        templatePath = xsi.ActiveProject2.OriginPath
+    path = uit.fileBrowser("Export Guide", templatePath, model.Name, ["xml"], True)
     if not path:
         return
 
