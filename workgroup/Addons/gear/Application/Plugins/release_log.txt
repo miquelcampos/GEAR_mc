@@ -1,0 +1,6 @@
+release_log.txt
+
+v 1.0.1
+-Menu re-arrange
+-un-used synoptics deleted
+-Guides information box set to not editable
