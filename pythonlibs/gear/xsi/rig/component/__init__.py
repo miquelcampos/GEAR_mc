@@ -263,10 +263,15 @@ class MainComponent(object):
         if self.getName(name) in self.rig.guide.controlers.keys():
             prim = self.rig.guide.controlers[self.getName(name)]
             #Get color from rig
-            rR = prim.obj.Properties('display').Parameters(12).GetValue2(None)
-            rG = prim.obj.Properties('display').Parameters(13).GetValue2(None)
-            rB = prim.obj.Properties('display').Parameters(14).GetValue2(None)
-            color = [rR, rG,rB]
+            
+            try:
+                rR = prim.obj.Properties('display').Parameters(12).GetValue2(None)
+                rG = prim.obj.Properties('display').Parameters(13).GetValue2(None)
+                rB = prim.obj.Properties('display').Parameters(14).GetValue2(None)
+                color = [rR, rG,rB]
+            except:
+                pass
+
 
         ctl = ico.primOrIcon(prim, parent, self.getName(name), t, color, icon, kwargs=kwargs)
         self.addToCtlGroup(ctl)
