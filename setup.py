@@ -10,7 +10,6 @@ config = {
     "author_email": "geerem@hotmail.com",
     "url": "http://gear.jeremiepasserin.com",
     "version": "1.1.0",
-    "install_requires": [],
     "packages": ["gear",
                  "gear.xsi",
                  "gear.xsi.rig",
