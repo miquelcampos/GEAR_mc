@@ -55,3 +55,4 @@ to release some internal code for the poseLib, selection sets and
 some of the facial components.  
 BIG THANKS to Helge for the original cpp solvers :)
 
+test
