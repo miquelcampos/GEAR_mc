@@ -1,6 +1,6 @@
 GEAR_mc 
 =======
-GEAR_mc is a fork of Jeremie Passerin's GEAR project.
+GEAR_mc is a fork of Jeremie Passerin's GEAR project for Softimage.
 
 GEAR is an open source project to provide a complete and production quality toolset 
 for rigging and animation inside Autodesk Softimage. It includes a lot of things to 
